@@ -52,6 +52,8 @@
             padding: 2rem 0;
             border-bottom: 1px solid #00ff41;
             box-shadow: 0 2px 10px rgba(0, 255, 65, 0.2);
+            position: relative;
+            z-index: 2000;
         }
 
         nav {
@@ -401,17 +403,79 @@
             color: #00ff41;
         }
 
+        .mobile-menu-toggle {
+            display: none;
+            background: none;
+            border: 2px solid #00ff41;
+            color: #00ff41;
+            font-size: 1.2rem;
+            padding: 0.5rem;
+            cursor: pointer;
+            font-family: 'Fira Code', monospace;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .mobile-menu-toggle:hover {
+            background: rgba(0, 255, 65, 0.1);
+            box-shadow: 0 0 10px rgba(0, 255, 65, 0.3);
+        }
+
+        .mobile-menu-toggle::before {
+            content: '☰ ';
+        }
+
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 2rem;
             }
 
+            .mobile-menu-toggle {
+                display: block;
+            }
+
             .nav-links {
                 display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: #000000;
+                backdrop-filter: blur(20px);
+                border-top: 1px solid #00ff41;
+                border-bottom: 1px solid #00ff41;
+                flex-direction: column;
+                gap: 0;
+                padding: 1rem 0;
+                box-shadow: 0 5px 20px rgba(0, 255, 65, 0.2);
+                z-index: 1000;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-links li {
+                padding: 1rem 2rem;
+                border-bottom: 1px solid rgba(0, 255, 65, 0.1);
+            }
+
+            .nav-links li:last-child {
+                border-bottom: none;
+            }
+
+            .nav-links a {
+                display: block;
+                width: 100%;
+                font-size: 1.1rem;
             }
 
             .features {
                 grid-template-columns: 1fr;
+            }
+
+            header {
+                position: relative;
             }
         }
     </style>
@@ -421,7 +485,8 @@
     <header>
         <nav class="container">
             <div class="logo">desh</div>
-            <ul class="nav-links">
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle">Menu</button>
+            <ul class="nav-links" id="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#vision">Vision</a></li>
                 <li><a href="#join">Join</a></li>
@@ -487,7 +552,34 @@
                 document.querySelector(this.getAttribute('href')).scrollIntoView({
                     behavior: 'smooth'
                 });
+
+                // Close mobile menu after clicking a link
+                const navLinks = document.getElementById('nav-links');
+                navLinks.classList.remove('active');
             });
+        });
+
+        // Mobile menu toggle functionality
+        const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        mobileMenuToggle.addEventListener('click', function () {
+            navLinks.classList.toggle('active');
+
+            // Update button text
+            if (navLinks.classList.contains('active')) {
+                this.textContent = 'Close';
+            } else {
+                this.textContent = 'Menu';
+            }
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function (e) {
+            if (!e.target.closest('nav')) {
+                navLinks.classList.remove('active');
+                mobileMenuToggle.textContent = 'Menu';
+            }
         });
     </script>
 </body>
