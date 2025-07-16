@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoinDesh - Software Defined Political Party</title>
+    <meta name="description"
+        content="Building a software-defined political party with domain experts and transparent governance for India">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+        body {
+            font-family: 'Fira Code', 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+            line-height: 1.6;
+            color: #00ff41;
+            background: #000000;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background:
+                radial-gradient(circle at 20% 50%, rgba(0, 255, 65, 0.03) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(0, 255, 65, 0.03) 0%, transparent 50%),
+                radial-gradient(circle at 40% 80%, rgba(0, 255, 65, 0.03) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.95);
+            backdrop-filter: blur(20px);
+            padding: 2rem 0;
+            border-bottom: 1px solid #00ff41;
+            box-shadow: 0 2px 10px rgba(0, 255, 65, 0.2);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #00ff41;
+            text-shadow: 0 0 20px rgba(0, 255, 65, 0.5);
+            font-family: 'Fira Code', monospace;
+        }
+
+        .logo::before {
+            content: '#';
+            color: #00ff41;
+        }
+
+        .logo::after {
+            content: '>_';
+            color: #00ff41;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: #00cc33;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            position: relative;
+        }
+
+        .nav-links a::before {
+            content: '$ ';
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #00ff41;
+            text-shadow: 0 0 10px rgba(0, 255, 65, 0.5);
+        }
+
+        .nav-links a:hover::before {
+            opacity: 1;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 0;
+            background: #00ff41;
+            transition: width 0.3s ease;
+            box-shadow: 0 0 5px rgba(0, 255, 65, 0.5);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        main {
+            padding: 4rem 0;
+        }
+
+        .hero {
+            text-align: center;
+            margin-top: 4rem;
+            margin-bottom: 6rem;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, rgba(0, 255, 65, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+            z-index: -1;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+            color: #00ff41;
+            text-shadow: 0 0 30px rgba(0, 255, 65, 0.5);
+            line-height: 1.2;
+            font-family: 'Fira Code', monospace;
+        }
+
+        .hero h1::before {
+            content: '$ sudo init ';
+            display: block;
+            font-size: 1rem;
+            color: #00cc33;
+            margin-bottom: 0.5rem;
+            text-shadow: 0 0 10px rgba(0, 255, 65, 0.3);
+        }
+
+        .hero h2 {
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+            font-weight: 500;
+            color: #00cc33;
+            font-family: 'Fira Code', monospace;
+            opacity: 0.9;
+        }
+
+        .hero h2::before {
+            content: '// ';
+            color: #00cc33;
+            opacity: 0.7;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 3rem;
+            color: #00cc33;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 400;
+            opacity: 0.9;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: transparent;
+            color: #00ff41;
+            padding: 1.2rem 2.5rem;
+            text-decoration: none;
+            border: 2px solid #00ff41;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            font-size: 1.1rem;
+            font-family: 'Fira Code', monospace;
+            position: relative;
+            overflow: hidden;
+            text-shadow: 0 0 10px rgba(0, 255, 65, 0.5);
+        }
+
+        .cta-button::before {
+            content: '> ';
+            margin-right: 0.5rem;
+        }
+
+        .cta-button::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 255, 65, 0.1);
+            transition: left 0.3s ease;
+        }
+
+        .cta-button:hover::after {
+            left: 0;
+        }
+
+        .cta-button:hover {
+            background: rgba(0, 255, 65, 0.1);
+            box-shadow: 0 0 20px rgba(0, 255, 65, 0.3);
+            text-shadow: 0 0 15px rgba(0, 255, 65, 0.8);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin: 6rem 0;
+        }
+
+        .feature-card {
+            background: rgba(0, 20, 0, 0.8);
+            padding: 2.5rem;
+            border: 1px solid #00ff41;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: #00ff41;
+            box-shadow: 0 0 10px rgba(0, 255, 65, 0.5);
+        }
+
+        .feature-card:hover {
+            background: rgba(0, 255, 65, 0.05);
+            box-shadow: 0 0 30px rgba(0, 255, 65, 0.2);
+            border-color: #00ff41;
+        }
+
+        .feature-card h3 {
+            margin-bottom: 1.5rem;
+            font-size: 1rem;
+            color: #00ff41;
+            font-weight: 600;
+            font-family: 'Fira Code', monospace;
+            text-shadow: 0 0 10px rgba(0, 255, 65, 0.3);
+        }
+
+        .feature-card h3::before {
+            content: '# ';
+            color: #00cc33;
+        }
+
+        .feature-card p {
+            color: #00cc33;
+            line-height: 1.7;
+            font-family: 'Fira Code', monospace;
+        }
+
+        .contact {
+            text-align: center;
+            background: rgba(0, 20, 0, 0.8);
+            padding: 4rem;
+            border: 1px solid #00ff41;
+            margin: 6rem 0;
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+        }
+
+        .contact::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: #00ff41;
+            box-shadow: 0 0 10px rgba(0, 255, 65, 0.5);
+        }
+
+        .contact h2 {
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+            color: #00ff41;
+            font-weight: 700;
+            font-family: 'Fira Code', monospace;
+            text-shadow: 0 0 20px rgba(0, 255, 65, 0.5);
+        }
+
+        .contact h2::before {
+            content: '$ echo "';
+            display: block;
+            font-size: 1rem;
+            color: #00cc33;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact h2::after {
+            content: '"';
+            color: #00cc33;
+        }
+
+        .contact p {
+            margin-bottom: 1.5rem;
+            color: #00cc33;
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Fira Code', monospace;
+        }
+
+        .email-link {
+            display: inline-block;
+            background: transparent;
+            color: #00ff41;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.2rem;
+            padding: 1rem 2rem;
+            border: 2px solid #00ff41;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+            font-family: 'Fira Code', monospace;
+            position: relative;
+            overflow: hidden;
+            text-shadow: 0 0 10px rgba(0, 255, 65, 0.5);
+        }
+
+        .email-link::before {
+            content: '> mailto: ';
+            margin-right: 0.5rem;
+        }
+
+        .email-link::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 255, 65, 0.1);
+            transition: left 0.3s ease;
+        }
+
+        .email-link:hover::after {
+            left: 0;
+        }
+
+        .email-link:hover {
+            background: rgba(0, 255, 65, 0.1);
+            box-shadow: 0 0 20px rgba(0, 255, 65, 0.3);
+            text-shadow: 0 0 15px rgba(0, 255, 65, 0.8);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            color: #00cc33;
+            font-family: 'Fira Code', monospace;
+            border-top: 1px solid #00ff41;
+            margin-top: 4rem;
+        }
+
+        footer p::before {
+            content: '# ';
+            color: #00ff41;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">desh</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#vision">Vision</a></li>
+                <li><a href="#join">Join</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Democratically Elected System Hackers</h1>
+            <h2>World's First Software-Defined Political Party</h2>
+            <p>Building transparent, algorithmic governance with domain experts who understand how to actually run a
+                modern nation-state.</p>
+            <a href="#join" class="cta-button">Join the Movement</a>
+        </section>
+
+        <section class="features" id="about">
+            <div class="feature-card">
+                <h3>🔬 Domain Expertise</h3>
+                <p>Our founding team consists of 100 experts across critical domains - from aviation and software to
+                    military and healthcare. We believe in technocratic leadership over traditional politics.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>🔍 Transparent Governance</h3>
+                <p>Every decision, vote, and policy change is tracked immutably. Our governance algorithms are
+                    open-source and auditable by anyone.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>🤖 Algorithmic Selection</h3>
+                <p>We use AI-powered analysis to identify and recruit the best domain experts, ensuring our team has the
+                    skills needed to solve real problems.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>🌐 Open Source Politics</h3>
+                <p>Like open-source software, our political platform is collaborative, iterative, and merit-based rather
+                    than personality-driven.</p>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Ready to Build the Future?</h2>
+            <p>We're looking for domain experts who want to move beyond traditional politics and actually solve India's
+                challenges.</p>
+            <p>If you're an expert in aviation, software, military, healthcare, finance, or any critical domain, we want
+                to hear from you.</p>
+            <a href="mailto:help.me@joindesh.in" class="email-link">help.me @ joindesh.in</a>
+        </section>
+    </main>
+
+    <footer class="container">
+        <p>&copy; 2025 #desh>_. Building India's future through software-defined governance.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

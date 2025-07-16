@@ -1,0 +1,30 @@
+# GitHub Pages configuration for JoinDesh
+title: "JoinDesh - Software Defined Political Party"
+description: "Building India's first software-defined political party with domain experts and transparent governance"
+url: "https://joindesh.in"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# SEO and social
+author: "JoinDesh Team"
+twitter:
+  username: joindesh
+  card: summary_large_image
+
+# GitHub Pages specific
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
