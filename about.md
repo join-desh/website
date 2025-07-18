@@ -12,7 +12,7 @@ description: "Learn about the world's first software-defined political party and
         </a>
         <button class="mobile-menu-toggle" id="mobile-menu-toggle">Menu</button>
         <ul class="nav-links" id="nav-links">
-            <li><a href="/about/">About</a></li>
+            <li><a href="/about/" class="active">About</a></li>
             <li><a href="/vision/">Vision</a></li>
             <li><a href="/#blog">Blog</a></li>
             <li><a href="/join/">Join</a></li>

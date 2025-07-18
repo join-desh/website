@@ -15,7 +15,7 @@ description: "Join the world's first software-defined political party. We're loo
             <li><a href="/about/">About</a></li>
             <li><a href="/vision/">Vision</a></li>
             <li><a href="/#blog">Blog</a></li>
-            <li><a href="/join/">Join</a></li>
+            <li><a href="/join/" class="active">Join</a></li>
             <li><a href="/#contact">Contact</a></li>
         </ul>
     </nav>
