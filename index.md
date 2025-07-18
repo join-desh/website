@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "DESH - Democratically Elected System Hackers"
+title: "Join #desh>_ - Democratically Elected System Hackers"
 description: "World's first software-defined political party. Building transparent, algorithmic governance with domain experts for India's future."
 ---
 
@@ -12,10 +12,10 @@ description: "World's first software-defined political party. Building transpare
         </a>
         <button class="mobile-menu-toggle" id="mobile-menu-toggle">Menu</button>
         <ul class="nav-links" id="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#vision">Vision</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/vision/">Vision</a></li>
             <li><a href="#blog">Blog</a></li>
-            <li><a href="#join">Join</a></li>
+            <li><a href="/join/">Join</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -26,7 +26,7 @@ description: "World's first software-defined political party. Building transpare
         <h1>Democratically Elected System Hackers</h1>
         <h2>World's First Software-Defined Political Party</h2>
         <p>Building transparent, algorithmic governance with domain experts who understand how to actually run a modern nation-state.</p>
-        <a href="#join" class="cta-button">Join the Movement</a>
+        <a href="/join/" class="cta-button">Join the Movement</a>
     </section>
 
     <section class="features" id="about">
