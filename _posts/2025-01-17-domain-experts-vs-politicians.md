@@ -5,8 +5,6 @@ meta: "$ diff traditional_politics.txt technocracy.txt"
 description: "Why India needs aviation experts running aviation policy, not career politicians making decisions about domains they don't understand."
 ---
 
-# Domain Experts vs. Career Politicians
-
 Why India needs aviation experts running aviation policy, not career politicians making decisions about domains they don't understand. A case study in evidence-based governance.
 
 ## The Problem: Mismatched Expertise
