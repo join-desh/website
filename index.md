@@ -6,10 +6,10 @@ description: "World's first software-defined political party. Building transpare
 
 <header>
     <nav class="container">
-        <div class="brand">
+        <a href="/" class="brand">
             <div class="logo">desh</div>
             <div class="tagline-header">Not left. Not right. Forward.</div>
-        </div>
+        </a>
         <button class="mobile-menu-toggle" id="mobile-menu-toggle">Menu</button>
         <ul class="nav-links" id="nav-links">
             <li><a href="#about">About</a></li>
