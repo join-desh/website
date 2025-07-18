@@ -4,6 +4,23 @@ title: "About DESH - Democratically Elected System Hackers"
 description: "Learn about the world's first software-defined political party and our mission to bring domain expertise to governance."
 ---
 
+<header>
+    <nav class="container">
+        <a href="/" class="brand">
+            <div class="logo">desh</div>
+            <div class="tagline-header">Not left. Not right. Forward.</div>
+        </a>
+        <button class="mobile-menu-toggle" id="mobile-menu-toggle">Menu</button>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="/about/">About</a></li>
+            <li><a href="/vision/">Vision</a></li>
+            <li><a href="/#blog">Blog</a></li>
+            <li><a href="/join/">Join</a></li>
+            <li><a href="/#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
 <main class="container">
     <section class="hero">
         <h1>About DESH</h1>
@@ -64,3 +81,45 @@ description: "Learn about the world's first software-defined political party and
         <a href="mailto:help.me@joindesh.in" class="email-link">help.me @ joindesh.in</a>
     </section>
 </main>
+
+<footer class="container">
+    <p>&copy; 2025 #desh>_. Building India's future through software-defined governance.</p>
+</footer>
+
+<script>
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = this.getAttribute('href').substring(1);
+            if (target) {
+                window.location.href = '/#' + target;
+            }
+        });
+    });
+
+    // Mobile menu toggle functionality
+    const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    if (mobileMenuToggle && navLinks) {
+        mobileMenuToggle.addEventListener('click', function () {
+            navLinks.classList.toggle('active');
+
+            // Update button text
+            if (navLinks.classList.contains('active')) {
+                this.textContent = 'Close';
+            } else {
+                this.textContent = 'Menu';
+            }
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function (e) {
+            if (!e.target.closest('nav') && navLinks.classList.contains('active')) {
+                navLinks.classList.remove('active');
+                mobileMenuToggle.textContent = 'Menu';
+            }
+        });
+    }
+</script>
