@@ -34,6 +34,7 @@ The disconnect is clear: zero domain expertise, infinite responsibility scope.
 ## Case Study: Aviation Safety in India
 
 ### Traditional Approach
+
 **Decision Maker**: Career politician with law degree
 **Process**: 
 1. Consult with lobbyists
@@ -44,6 +45,7 @@ The disconnect is clear: zero domain expertise, infinite responsibility scope.
 **Result**: Generic regulations that miss critical technical nuances
 
 ### DESH Approach  
+
 **Decision Maker**: Aviation safety expert with 20+ years experience
 **Process**:
 1. Analyze incident data patterns
