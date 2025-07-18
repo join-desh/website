@@ -5,8 +5,6 @@ meta: "$ cat /dev/democracy | grep transparency"
 description: "How can we apply software engineering principles to create more transparent and efficient governance systems?"
 ---
 
-# The Algorithm of Governance
-
 How can we apply software engineering principles to create more transparent and efficient governance systems? We explore the parallels between debugging code and fixing democratic processes.
 
 ## The Bug Report: Democracy v1.0

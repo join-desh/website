@@ -5,8 +5,6 @@ meta: "$ git commit -m 'democracy: implement transparency patch'"
 description: "What if political parties operated like open source projects? Exploring how collaborative development principles can revolutionize democratic participation."
 ---
 
-# Open Source Democracy
-
 What if political parties operated like open source projects? Exploring how collaborative development principles can revolutionize democratic participation and accountability.
 
 ## The Repository: Democracy as Code
