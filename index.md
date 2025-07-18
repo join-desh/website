@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: "DESH - Democratically Elected System Hackers"
 description: "World's first software-defined political party. Building transparent, algorithmic governance with domain experts for India's future."
 ---
