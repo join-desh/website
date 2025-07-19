@@ -14,6 +14,7 @@ description: "Learn about the world's first software-defined political party and
         <ul class="nav-links" id="nav-links">
             <li><a href="/about/" class="active">About</a></li>
             <li><a href="/vision/">Vision</a></li>
+            <li><a href="/primitives/">Primitives</a></li>
             <li><a href="/#blog">Blog</a></li>
             <li><a href="/join/">Join</a></li>
             <li><a href="/#contact">Contact</a></li>

@@ -23,6 +23,12 @@ twitter:
   username: joindesh
   card: summary_large_image
 
+# Collections for organized content
+collections:
+  primitives:
+    output: true
+    permalink: /primitives/:name/
+
 # GitHub Pages specific
 plugins:
   - jekyll-sitemap
