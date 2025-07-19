@@ -19,7 +19,7 @@ permalink: /primitives/
             <div class="document-card">
                 <h3>📄 FlowVote Litepaper</h3>
                 <p>Technical specification for liquid democracy implementation with expert delegation and transparent voting mechanisms.</p>
-                <a href="/assets/documents/FlowVote-1.0.0.pdf" class="download-link" target="_blank">Download PDF</a>
+                <a href="/assets/documents/FlowVote-1.0.0.pdf" class="download-link" target="_blank">View PDF</a>
             </div>
         </div>
     </section>
@@ -116,7 +116,7 @@ permalink: /primitives/
 }
 
 .download-link::before {
-    content: '⬇ ';
+    content: '👁 ';
     margin-right: 0.5rem;
 }
 </style>
