@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title | default: site.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description }}">
-    
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:title" content="{{ page.title | default: site.title }}">
     <meta property="og:description" content="{{ page.description | default: site.description }}">
     <meta property="og:image" content="{{ site.url }}/og-image.png">
-    
+
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="{{ page.title | default: site.title }}">
     <meta property="twitter:description" content="{{ page.description | default: site.description }}">
     <meta property="twitter:image" content="{{ site.url }}/og-image.png">
-    
+
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
     <style>
         * {
@@ -164,6 +165,35 @@
         }
 
         .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        /* Active navigation state */
+        .nav-links a.active {
+            color: #00ff41 !important;
+            text-shadow: 0 0 10px rgba(0, 255, 65, 0.5) !important;
+        }
+
+        .nav-links a.active::before {
+            opacity: 1 !important;
+        }
+
+        .nav-links a.active::after {
+            width: 100% !important;
+            background: #00ff41 !important;
+            box-shadow: 0 0 5px rgba(0, 255, 65, 0.5) !important;
+        }
+
+        .nav-links a.active {
+            color: #00ff41;
+            text-shadow: 0 0 10px rgba(0, 255, 65, 0.5);
+        }
+
+        .nav-links a.active::before {
+            opacity: 1;
+        }
+
+        .nav-links a.active::after {
             width: 100%;
         }
 
@@ -571,7 +601,7 @@
         }
 
         .email-link::before {
-            content: '> mailto: ';
+            content: '> mail to: ';
             margin-right: 0.5rem;
         }
 
@@ -695,7 +725,9 @@
         }
     </style>
 </head>
+
 <body>
     {{ content }}
 </body>
+
 </html>
