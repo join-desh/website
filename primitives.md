@@ -32,7 +32,7 @@ permalink: /primitives/
             {% for post in site.categories.primitives %}
             <article class="blog-post">
                 <h3>{{ post.title }}</h3>
-                <div class="blog-meta">{{ post.meta | default: "$ ./democracy --analyze-primitive" }}</div>
+                <div class="blog-meta">{{ post.meta | default: post.date | date: "%B %d, %Y" }}</div>
                 <p>{{ post.description | default: post.excerpt | strip_html | truncate: 200 }}</p>
                 <div class="post-tags">
                     {% for tag in post.tags %}
