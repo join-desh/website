@@ -257,11 +257,105 @@ section h2::before {
     transform: translateX(4px);
 }
 
-/* Button positioning with natural flow */
+/* Clean button styling to match minimal design */
 .document-card .btn-base,
 .blog-post .btn-base {
     margin-top: var(--spacing-sm);
     align-self: flex-start;
+    
+    /* Override heavy button styling */
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+    padding: 0.8rem 0 !important;
+    min-height: auto !important;
+    min-width: auto !important;
+    border-radius: 0 !important;
+    
+    /* Clean typography */
+    font-family: 'Fira Code', monospace !important;
+    font-size: 0.95rem !important;
+    font-weight: 400 !important;
+    color: #00ff41 !important;
+    text-shadow: none !important;
+    text-decoration: none !important;
+    
+    /* Subtle underline effect */
+    position: relative;
+    transition: all 0.3s ease !important;
+}
+
+.document-card .btn-base::after,
+.blog-post .btn-base::after {
+    content: '';
+    position: absolute;
+    bottom: 0.6rem;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: #00ff41;
+    transition: width 0.3s ease;
+}
+
+.document-card .btn-base:hover,
+.blog-post .btn-base:hover {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    transform: translateX(8px) !important;
+    color: #00ff41 !important;
+    text-shadow: 0 0 10px rgba(0, 255, 65, 0.4) !important;
+}
+
+.document-card .btn-base:hover::after,
+.blog-post .btn-base:hover::after {
+    width: 100%;
+}
+
+/* Icon styling for buttons */
+.document-card .btn-base::before,
+.blog-post .btn-base::before {
+    margin-right: 0.6rem !important;
+    font-size: 0.9em !important;
+    opacity: 0.8;
+    transition: all 0.3s ease !important;
+}
+
+.document-card .btn-base:hover::before,
+.blog-post .btn-base:hover::before {
+    opacity: 1;
+    transform: translateX(2px) !important;
+}
+
+/* Focus states for accessibility */
+.document-card .btn-base:focus,
+.blog-post .btn-base:focus {
+    outline: 2px solid rgba(0, 255, 65, 0.5) !important;
+    outline-offset: 4px !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.document-card .btn-base:focus-visible,
+.blog-post .btn-base:focus-visible {
+    outline: 2px solid #00ff41 !important;
+    outline-offset: 4px !important;
+    transform: translateX(4px) !important;
+}
+
+/* Remove ripple effects and other heavy animations */
+.document-card .btn-base::after:not(:hover),
+.blog-post .btn-base::after:not(:hover) {
+    display: none;
+}
+
+/* Ensure clean active state */
+.document-card .btn-base:active,
+.blog-post .btn-base:active {
+    transform: translateX(4px) !important;
+    background: transparent !important;
+    box-shadow: none !important;
 }
 
 /* Responsive design with maintained spaciousness */
