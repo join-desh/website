@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Responsive Test</title>
+    <link rel="stylesheet" href="assets/css/button-theme.css">
+    <style>
+        body {
+            font-family: 'Fira Code', monospace;
+            background: #000;
+            color: #00ff41;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+        
+        .test-section {
+            margin-bottom: 3rem;
+            padding: 2rem;
+            border: 1px solid #00ff41;
+            border-radius: 8px;
+        }
+        
+        .test-section h2 {
+            color: #00ff41;
+            margin-bottom: 1rem;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin: 1rem 0;
+        }
+        
+        .info {
+            color: #00cc33;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+        
+        .measurement {
+            background: rgba(0, 255, 65, 0.1);
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Button Responsive Behavior Test</h1>
+    <p class="info">Test the buttons below on different screen sizes to verify responsive behavior.</p>
+    
+    <div class="test-section">
+        <h2>Primary Buttons with Icons</h2>
+        <div class="button-group">
+            <a href="#" class="btn-base btn-primary btn-pdf btn-responsive">View PDF</a>
+            <a href="#" class="btn-base btn-primary btn-download btn-responsive">Download</a>
+            <a href="#" class="btn-base btn-primary btn-external btn-responsive">External Link</a>
+        </div>
+        <div class="measurement">
+            Expected: Min 48px height on mobile, proper touch targets, responsive padding
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>Secondary Buttons with Icons</h2>
+        <div class="button-group">
+            <a href="#" class="btn-base btn-secondary btn-arrow btn-responsive">Read More</a>
+            <a href="#" class="btn-base btn-secondary btn-chevron btn-responsive">Continue</a>
+            <a href="#" class="btn-base btn-secondary btn-mail btn-responsive">Contact</a>
+        </div>
+        <div class="measurement">
+            Expected: Min 48px height on mobile, consistent styling across breakpoints
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>Button Groups - Mobile Stacking</h2>
+        <div class="btn-group btn-stack-mobile">
+            <a href="#" class="btn-base btn-primary btn-responsive">Action 1</a>
+            <a href="#" class="btn-base btn-secondary btn-responsive">Action 2</a>
+            <a href="#" class="btn-base btn-secondary btn-responsive">Action 3</a>
+        </div>
+        <div class="measurement">
+            Expected: Horizontal on desktop, vertical stack on mobile (480px and below)
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>Block Buttons - Mobile Full Width</h2>
+        <div class="button-group">
+            <a href="#" class="btn-base btn-primary btn-block-mobile btn-responsive">Full Width on Mobile</a>
+            <a href="#" class="btn-base btn-secondary btn-block-mobile btn-responsive">Another Full Width</a>
+        </div>
+        <div class="measurement">
+            Expected: Normal width on desktop, full width on mobile (768px and below)
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>Touch Target Test</h2>
+        <div class="button-group">
+            <a href="#" class="btn-base btn-primary btn-sm btn-responsive">Small Button</a>
+            <a href="#" class="btn-base btn-secondary btn-responsive">Regular Button</a>
+            <a href="#" class="btn-base btn-primary btn-lg btn-responsive">Large Button</a>
+        </div>
+        <div class="measurement">
+            Expected: All buttons should meet 48px minimum height on mobile regardless of size class
+        </div>
+    </div>
+    
+    <script>
+        // Add touch target measurement on mobile
+        function measureButtons() {
+            const buttons = document.querySelectorAll('.btn-base');
+            const measurements = document.querySelectorAll('.measurement');
+            
+            buttons.forEach((button, index) => {
+                const rect = button.getBoundingClientRect();
+                const height = rect.height;
+                const width = rect.width;
+                
+                if (measurements[Math.floor(index / 3)]) {
+                    const measurementDiv = measurements[Math.floor(index / 3)];
+                    measurementDiv.innerHTML += `<br>Button ${(index % 3) + 1}: ${width.toFixed(0)}px × ${height.toFixed(0)}px`;
+                }
+            });
+        }
+        
+        // Measure on load and resize
+        window.addEventListener('load', measureButtons);
+        window.addEventListener('resize', () => {
+            // Clear previous measurements
+            document.querySelectorAll('.measurement').forEach(el => {
+                el.innerHTML = el.innerHTML.split('<br>')[0];
+            });
+            measureButtons();
+        });
+        
+        // Add viewport size indicator
+        function showViewportSize() {
+            const viewport = document.createElement('div');
+            viewport.style.cssText = `
+                position: fixed;
+                top: 10px;
+                right: 10px;
+                background: rgba(0, 255, 65, 0.9);
+                color: #000;
+                padding: 0.5rem;
+                border-radius: 4px;
+                font-size: 0.8rem;
+                z-index: 1000;
+            `;
+            document.body.appendChild(viewport);
+            
+            function updateSize() {
+                viewport.textContent = `${window.innerWidth}px × ${window.innerHeight}px`;
+            }
+            
+            updateSize();
+            window.addEventListener('resize', updateSize);
+        }
+        
+        showViewportSize();
+    </script>
+</body>
+</html>

@@ -19,7 +19,7 @@ permalink: /primitives/
             <div class="document-card">
                 <h3>📄 FlowVote Litepaper</h3>
                 <p>Technical specification for liquid democracy implementation with expert delegation and transparent voting mechanisms.</p>
-                <a href="/assets/documents/FlowVote-1.0.0.pdf" class="download-link" target="_blank">View PDF</a>
+                <a href="/assets/documents/FlowVote-1.0.0.pdf" class="btn-base btn-secondary btn-pdf btn-responsive" target="_blank" aria-label="View FlowVote Litepaper PDF document">View PDF</a>
             </div>
         </div>
     </section>
@@ -39,7 +39,7 @@ permalink: /primitives/
                     <span class="tag">#{{ tag }}</span>
                     {% endfor %}
                 </div>
-                <a href="{{ post.url }}" class="read-more">Read More</a>
+                <a href="{{ post.url }}" class="btn-base btn-secondary btn-arrow btn-responsive" aria-label="Read more about {{ post.title }}">Read More</a>
             </article>
             {% endfor %}
         </div>
@@ -49,281 +49,286 @@ permalink: /primitives/
 <style>
 /* Typography and spacing system */
 :root {
-    --spacing-unit: 1.5rem;
+    --spacing-unit: 2rem;
     --spacing-xs: calc(var(--spacing-unit) * 0.5);
     --spacing-sm: var(--spacing-unit);
     --spacing-md: calc(var(--spacing-unit) * 2);
     --spacing-lg: calc(var(--spacing-unit) * 3);
     --spacing-xl: calc(var(--spacing-unit) * 4);
     --spacing-xxl: calc(var(--spacing-unit) * 6);
+    --spacing-xxxl: calc(var(--spacing-unit) * 8);
+}
+
+/* Mobile spacing adjustments */
+@media (max-width: 768px) {
+    :root {
+        --spacing-unit: 1.5rem;
+        --spacing-sm: 1.2rem;
+        --spacing-md: 1.8rem;
+        --spacing-lg: 2.4rem;
+    }
 }
 
 /* Page structure and vertical rhythm */
 .hero {
-    margin-bottom: var(--spacing-xxl);
+    margin-bottom: var(--spacing-xxxl);
     text-align: center;
+    padding: var(--spacing-xl) 0;
 }
 
 .hero h1 {
-    font-size: 2.8rem;
-    line-height: 1.2;
-    margin-bottom: var(--spacing-md);
+    font-size: 3.2rem;
+    line-height: 1.1;
+    margin-bottom: var(--spacing-lg);
     color: #00ff41;
-    text-shadow: 0 0 30px rgba(0, 255, 65, 0.5);
+    text-shadow: 0 0 40px rgba(0, 255, 65, 0.4);
     font-family: 'Fira Code', monospace;
     font-weight: 700;
+    letter-spacing: -0.02em;
 }
 
 .hero p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: #00cc33;
-    max-width: 800px;
+    max-width: 700px;
     margin: 0 auto;
-    line-height: 1.6;
-    opacity: 0.9;
+    line-height: 1.7;
+    opacity: 0.85;
+    font-weight: 300;
 }
 
 /* Section spacing and typography */
 section {
-    margin-bottom: var(--spacing-xxl);
+    margin-bottom: var(--spacing-xxxl);
+    padding: 0 var(--spacing-sm);
 }
 
 section h2 {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     color: #00ff41;
-    font-weight: 700;
+    font-weight: 600;
     font-family: 'Fira Code', monospace;
-    text-shadow: 0 0 20px rgba(0, 255, 65, 0.5);
-    margin-bottom: var(--spacing-md);
-    text-align: center;
-    line-height: 1.3;
+    text-shadow: 0 0 25px rgba(0, 255, 65, 0.3);
+    margin-bottom: var(--spacing-xl);
+    text-align: left;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    position: relative;
+    padding-left: var(--spacing-md);
 }
 
 section h2::before {
-    content: '$ ls /';
-    display: block;
-    font-size: 1rem;
-    color: #00cc33;
-    margin-bottom: var(--spacing-xs);
-    text-shadow: 0 0 10px rgba(0, 255, 65, 0.3);
-    font-weight: 400;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 60%;
+    background: linear-gradient(to bottom, #00ff41, rgba(0, 255, 65, 0.3));
+    border-radius: 2px;
 }
 
 .section-intro {
-    text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #00cc33;
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
     max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.6;
-    opacity: 0.9;
+    line-height: 1.8;
+    opacity: 0.8;
     font-family: 'Fira Code', monospace;
+    font-weight: 300;
+    margin-left: var(--spacing-md);
 }
 
-/* Grid system */
+/* Grid system with generous spacing */
 .document-grid,
 .blog-posts {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: var(--spacing-md);
-    margin-top: var(--spacing-lg);
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: var(--spacing-xl);
+    margin-top: var(--spacing-xl);
+    padding: 0 var(--spacing-md);
 }
 
-/* Card components */
+/* Card components - minimal and spacious */
 .document-card,
 .blog-post {
-    background: rgba(0, 20, 0, 0.8);
-    border: 1px solid #00ff41;
-    border-radius: 8px;
-    padding: var(--spacing-md);
-    transition: all 0.3s ease;
+    background: transparent;
+    padding: var(--spacing-lg) 0;
+    transition: all 0.4s ease;
     position: relative;
-    overflow: hidden;
-    backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
-    height: 100%;
+    border-left: 1px solid rgba(0, 255, 65, 0.1);
+    padding-left: var(--spacing-lg);
+    margin-left: var(--spacing-sm);
+}
+
+.document-card:hover,
+.blog-post:hover {
+    transform: translateX(var(--spacing-xs));
+    border-left-color: rgba(0, 255, 65, 0.4);
+}
+
+.document-card:hover::before,
+.blog-post:hover::before {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .document-card::before,
 .blog-post::before {
     content: '';
     position: absolute;
+    left: -1px;
     top: 0;
-    left: 0;
-    right: 0;
-    height: 2px;
-    background: #00ff41;
-    box-shadow: 0 0 10px rgba(0, 255, 65, 0.5);
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient(to bottom, #00ff41, rgba(0, 255, 65, 0.2));
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: all 0.4s ease;
+    border-radius: 0 2px 2px 0;
 }
 
-.document-card:hover,
-.blog-post:hover {
-    background: rgba(0, 255, 65, 0.05);
-    box-shadow: 0 0 30px rgba(0, 255, 65, 0.2);
-    border-color: #00ff41;
-    transform: translateY(-2px);
-}
-
-/* Card typography */
+/* Card typography with breathing room */
 .document-card h3,
 .blog-post h3 {
     color: #00ff41;
-    font-size: 1.3rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 500;
     font-family: 'Fira Code', monospace;
-    text-shadow: 0 0 10px rgba(0, 255, 65, 0.3);
-    margin-bottom: var(--spacing-sm);
-    line-height: 1.4;
+    text-shadow: 0 0 15px rgba(0, 255, 65, 0.2);
+    margin-bottom: var(--spacing-md);
+    line-height: 1.3;
+    letter-spacing: -0.01em;
 }
 
 .document-card p,
 .blog-post p {
     color: #00cc33;
-    line-height: 1.7;
+    line-height: 1.8;
     font-family: 'Fira Code', monospace;
-    margin-bottom: var(--spacing-sm);
+    margin-bottom: var(--spacing-lg);
     flex-grow: 1;
+    font-weight: 300;
+    opacity: 0.9;
 }
 
-/* Blog meta and tags */
+/* Blog meta with subtle styling */
 .blog-meta {
     font-size: 0.9rem;
-    color: #00cc33;
+    color: rgba(0, 204, 51, 0.6);
     font-family: 'Fira Code', monospace;
-    margin-bottom: var(--spacing-sm);
-    opacity: 0.8;
+    margin-bottom: var(--spacing-md);
     font-style: italic;
+    font-weight: 300;
 }
 
 .post-tags {
-    margin: var(--spacing-sm) 0;
+    margin: var(--spacing-md) 0 var(--spacing-lg) 0;
     display: flex;
     flex-wrap: wrap;
-    gap: var(--spacing-xs);
+    gap: var(--spacing-sm);
 }
 
 .tag {
     display: inline-block;
-    background: rgba(0, 204, 51, 0.2);
-    color: #00cc33;
-    padding: 0.3rem 0.6rem;
-    border-radius: 4px;
-    font-size: 0.8rem;
+    background: transparent;
+    color: rgba(0, 204, 51, 0.7);
+    padding: 0.4rem 0;
+    font-size: 0.85rem;
     font-family: 'Fira Code', monospace;
-    font-weight: 500;
-    border: 1px solid rgba(0, 204, 51, 0.3);
+    font-weight: 400;
+    border: none;
     transition: all 0.3s ease;
+    position: relative;
+}
+
+.tag::before {
+    content: '#';
+    opacity: 0.5;
+    margin-right: 0.2rem;
 }
 
 .tag:hover {
-    background: rgba(0, 204, 51, 0.3);
-    border-color: #00cc33;
+    color: #00cc33;
+    transform: translateX(4px);
 }
 
-/* Action buttons */
-.download-link,
-.read-more {
-    display: inline-block;
-    background: transparent;
-    color: #00ff41;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 1rem;
-    padding: 0.8rem 1.5rem;
-    border: 1px solid #00ff41;
-    border-radius: 4px;
-    transition: all 0.3s ease;
-    font-family: 'Fira Code', monospace;
-    position: relative;
-    overflow: hidden;
-    margin-top: auto;
-    text-align: center;
+/* Button positioning with natural flow */
+.document-card .btn-base,
+.blog-post .btn-base {
+    margin-top: var(--spacing-sm);
+    align-self: flex-start;
 }
 
-.download-link::before {
-    content: '👁 ';
-    margin-right: 0.5rem;
-}
-
-.read-more::before {
-    content: '> ';
-    margin-right: 0.3rem;
-}
-
-.download-link::after,
-.read-more::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 255, 65, 0.1);
-    transition: left 0.3s ease;
-}
-
-.download-link:hover::after,
-.read-more:hover::after {
-    left: 0;
-}
-
-.download-link:hover,
-.read-more:hover {
-    background: rgba(0, 255, 65, 0.1);
-    box-shadow: 0 0 15px rgba(0, 255, 65, 0.3);
-    text-shadow: 0 0 10px rgba(0, 255, 65, 0.5);
-    transform: translateY(-1px);
-}
-
-/* Responsive design */
+/* Responsive design with maintained spaciousness */
 @media (max-width: 768px) {
     :root {
-        --spacing-unit: 1.2rem;
+        --spacing-unit: 1.5rem;
+    }
+    
+    .hero {
+        padding: var(--spacing-lg) 0;
     }
     
     .hero h1 {
-        font-size: 2.2rem;
+        font-size: 2.4rem;
     }
     
     .hero p {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+    }
+    
+    section {
+        padding: 0 var(--spacing-xs);
     }
     
     section h2 {
-        font-size: 1.8rem;
+        font-size: 2rem;
+        padding-left: var(--spacing-sm);
     }
     
     .section-intro {
         font-size: 1rem;
+        margin-left: var(--spacing-sm);
     }
     
     .document-grid,
     .blog-posts {
         grid-template-columns: 1fr;
-        gap: var(--spacing-sm);
+        gap: var(--spacing-lg);
+        padding: 0 var(--spacing-sm);
     }
     
     .document-card,
     .blog-post {
-        padding: var(--spacing-sm);
+        padding: var(--spacing-md) 0;
+        padding-left: var(--spacing-md);
+        margin-left: var(--spacing-xs);
     }
 }
 
 @media (max-width: 480px) {
     .hero h1 {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
     
     section h2 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
     
     .document-card h3,
     .blog-post h3 {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
+    }
+    
+    .document-grid,
+    .blog-posts {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
     }
 }
 </style>
