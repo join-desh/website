@@ -17,14 +17,14 @@ permalink: /primitives/
 
         <div class="document-grid">
             <div class="document-card">
-                <h3>📄 FlowVote Litepaper</h3>
-                <p>Technical specification for liquid democracy implementation with expert delegation and transparent voting mechanisms.</p>
-                <a href="/assets/documents/FlowVote-1.0.0.pdf" class="btn-base btn-secondary btn-pdf btn-responsive" target="_blank" aria-label="View FlowVote Litepaper PDF document">View PDF</a>
-            </div>
-            <div class="document-card">
-                <h3>📡 Amplifier Litepaper</h3>
+                <h3>📡 Amplifier</h3>
                 <p>Decentralized media protocol that transforms influence into an earned resource through Watts and Volts currencies, eliminating paid promotion while enabling authentic community voices to achieve massive reach through earned influence.</p>
                 <a href="/assets/documents/Amplifier-1.0.0.pdf" class="btn-base btn-secondary btn-pdf btn-responsive" target="_blank" aria-label="View Amplifier Litepaper PDF document">View PDF</a>
+            </div>
+            <div class="document-card">
+                <h3>⚡ Pulse</h3>
+                <p>Decentralized governance and funding platform that transforms democracy into a software-defined process, enabling real-time citizen participation, dynamic delegation, and resource allocation while eliminating traditional representatives through blockchain-based smart contracts.</p>
+                <a href="/assets/documents/Pulse-1.0.0.pdf" class="btn-base btn-secondary btn-pdf btn-responsive" target="_blank" aria-label="View Pulse Litepaper PDF document">View PDF</a>
             </div>
         </div>
     </section>
