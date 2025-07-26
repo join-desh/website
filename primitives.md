@@ -14,12 +14,17 @@ permalink: /primitives/
     <section class="documents">
         <h2>Research Documents</h2>
         <p class="section-intro">In-depth analysis and technical specifications for democracy primitives.</p>
-        
+
         <div class="document-grid">
             <div class="document-card">
                 <h3>📄 FlowVote Litepaper</h3>
                 <p>Technical specification for liquid democracy implementation with expert delegation and transparent voting mechanisms.</p>
                 <a href="/assets/documents/FlowVote-1.0.0.pdf" class="btn-base btn-secondary btn-pdf btn-responsive" target="_blank" aria-label="View FlowVote Litepaper PDF document">View PDF</a>
+            </div>
+            <div class="document-card">
+                <h3>📡 Amplifier Litepaper</h3>
+                <p>Decentralized media protocol that transforms influence into an earned resource through Watts and Volts currencies, eliminating paid promotion while enabling authentic community voices to achieve massive reach through earned influence.</p>
+                <a href="/assets/documents/Amplifier-1.0.0.pdf" class="btn-base btn-secondary btn-pdf btn-responsive" target="_blank" aria-label="View Amplifier Litepaper PDF document">View PDF</a>
             </div>
         </div>
     </section>
@@ -27,7 +32,7 @@ permalink: /primitives/
     <section class="blog">
         <h2>Building Blocks of Modern Democracy</h2>
         <p class="section-intro">Exploring the core mechanisms and algorithms that power transparent, efficient, and expert-driven governance systems.</p>
-        
+
         <div class="blog-posts">
             {% for post in site.categories.primitives %}
             <article class="blog-post">
@@ -44,6 +49,7 @@ permalink: /primitives/
             {% endfor %}
         </div>
     </section>
+
 </main>
 
 <style>
