@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Vision · desh_"
+title: "Vision · #desh>_"
 description: "A software-defined democracy, rethought from first principles: government that runs with the efficiency of well-architected software, the transparency of open source, and the judgment of domain experts. Test bed: India, blueprint for anywhere."
 ---
 

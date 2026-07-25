@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "About · desh_"
+title: "About · #desh>_"
 description: "DESH is the world's first software-defined political party: domain experts applying engineering principles to governance instead of career politicians optimizing for the next election."
 ---
 

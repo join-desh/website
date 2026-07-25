@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Primitives · desh_"
+title: "Primitives · #desh>_"
 description: "The open protocols that make software-defined governance real: Amplifier, Pulse and FlowVote. Read the litepapers."
 permalink: /primitives/
 ---
