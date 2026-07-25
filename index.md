@@ -8,7 +8,7 @@ description: "DESH (Democratically Elected System Hackers) is a software-defined
   <div class="container">
     <span class="eyebrow">A software-defined political party · first principles</span>
     <h1>Corruption is gravity.<br>We're building the <span class="ember-text">rocket</span>.</h1>
-    <p class="lede">You can't delete gravity. Try, and the universe collapses. We reached space anyway, not by abolishing the force but by engineering escape velocity. The climb takes real thrust. Orbit, once reached, is nearly free. DESH is that machine, for governance.</p>
+    <p class="lede">You can't delete gravity. We reached space anyway, not by abolishing the force but by engineering escape velocity. The climb takes real thrust. Orbit, once reached, is nearly free. DESH is that machine, for governance.</p>
     <div class="hero-cta">
       <a href="#thesis" class="btn btn-primary">Read the thesis <span class="arrow">→</span></a>
       <a href="/join/" class="btn btn-ghost">Join the founding 100</a>
