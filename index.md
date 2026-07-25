@@ -53,7 +53,7 @@ description: "DESH (Democratically Elected System Hackers) is a software-defined
         <span class="n">01</span>
         <div>
           <h3>It behaves like gravity</h3>
-          <p>One honest officer, one corrupt officer: each holds a little power. But above every actor sits someone with more, the way the sun outweighs the earth. People don't fall because they're evil; they fall because of the economics of the system they're embedded in. The pull is structural.</p>
+          <p>Corruption is not evil. It is ambition and self-interest, the same drive that builds everything, running downhill because the incentives slope that way. Each actor holds a little pull, and above each sits someone with more, the way the sun outweighs the earth. People don't fall because they're bad. They fall because the system around them points down. The pull is structural, and it lives in all of us.</p>
         </div>
       </div>
       <div class="beat reveal">
@@ -66,15 +66,15 @@ description: "DESH (Democratically Elected System Hackers) is a software-defined
       <div class="beat reveal ignite">
         <span class="n">03</span>
         <div>
-          <h3>You escape it by engineering</h3>
-          <p>We reached space in spite of gravity, not by abolishing it. It took a rocket: enormous thrust, the right structure, one hard climb to escape velocity. A political system can be built the same way, to run honestly inside a corrupt field instead of waiting for the field to vanish. The climb is the price of admission.</p>
+          <h3>You aim it by engineering</h3>
+          <p>We reached space in spite of gravity, not by abolishing it but by working with it. Ambition is no different: you don't suppress it, you aim it. That is incentive engineering, and done right the very drive that pulls a system into corruption becomes the thrust that lifts it. The climb takes real force, and it is the price of admission.</p>
         </div>
       </div>
       <div class="beat reveal orbit">
         <span class="n">04</span>
         <div>
           <h3>Then it holds orbit</h3>
-          <p>Reaching orbit is brutal. Staying there is nearly free. A satellite coasts for decades on the energy of a single launch, delivering the whole time at almost no cost. A system built right works the same way: honesty stops being a daily fight and becomes the state the structure maintains, running lean, at the highest efficiency, long after the launch.</p>
+          <p>Orbit is not the absence of gravity; it is gravity mastered. A satellite is still falling, just moving sideways fast enough to keep missing the ground, and it coasts for decades at almost no cost. Corruption is the version where everything falls. A society built right ships the other one: the same ambition, aimed by good incentives, now holds the whole system aloft, lean and self-sustaining, long after the launch.</p>
         </div>
       </div>
     </div>
