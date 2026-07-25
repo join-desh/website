@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "desh_ · Corruption is gravity. We're building the rocket."
-description: "DESH is a software-defined political party rebuilding public services from first principles, for anywhere. Abolishing the gravity of corruption is intractable. We engineer a system that reaches escape velocity anyway. First test bed: India."
+title: "Corruption is gravity. We're building the rocket."
+description: "DESH (Democratically Elected System Hackers) is a software-defined political party rebuilding public services from first principles, for anywhere. Abolishing the gravity of corruption is intractable. We engineer a system that reaches escape velocity anyway. First test bed: India."
 ---
 
 <section class="hero">
