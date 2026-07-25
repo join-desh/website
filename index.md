@@ -162,6 +162,15 @@ description: "DESH (Democratically Elected System Hackers) is a software-defined
   </div>
 </section>
 
+<section class="section" id="why-now">
+  <div class="container narrow">
+    <span class="eyebrow reveal">Why now</span>
+    <h2 class="reveal" style="font-size:clamp(2rem,4.6vw,3rem);margin:1.1rem 0 1.4rem;letter-spacing:-0.03em">Software-defined, literally.</h2>
+    <p class="reveal" style="color:var(--text-muted);font-size:1.12rem;line-height:1.75">Embodied intelligence is arriving, and AI is moving into the execution of nearly everything. As machines carry out more of the work of the state, the gap between writing a policy and running it collapses. Governance stops being a speech and becomes software that executes, measurably, at scale. A software-defined party is not a metaphor we borrowed. It is the form governance takes in this era.</p>
+    <p class="reveal" style="color:var(--text-muted);font-size:1.12rem;line-height:1.75;margin-top:1.2rem">A party built as software today is the operating system for that world. We start AI-native, not retrofitting a twentieth-century machine. The incumbent system is legacy code we did not write and cannot patch. We are shipping the next version.</p>
+  </div>
+</section>
+
 <section class="section" id="primitives">
   <div class="container">
     <div class="section-head reveal">
