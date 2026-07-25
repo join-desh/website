@@ -86,7 +86,10 @@ description: "DESH is a software-defined political party rebuilding public servi
 <section class="section" id="root">
   <div class="container">
     <div class="root-band reveal">
-      <div class="prompt" aria-hidden="true"><span class="p-dim">#</span><span class="gradient-text">desh</span><span class="p-dim">&gt;</span><span class="caret">_</span></div>
+      <div class="root-mark">
+        <div class="prompt" aria-hidden="true"><span class="p-dim">#</span><span class="gradient-text">desh</span><span class="p-dim">&gt;</span><span class="caret">_</span></div>
+        <p class="prompt-caption">Democratically Elected<br>System Hackers</p>
+      </div>
       <div class="root-copy">
         <span class="eyebrow">The name</span>
         <h2>Root access to your experience of the country.</h2>
