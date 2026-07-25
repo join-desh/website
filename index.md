@@ -104,7 +104,7 @@ description: "DESH (Democratically Elected System Hackers) is a software-defined
     <div class="section-head reveal">
       <span class="eyebrow">The engineering</span>
       <h2>How the rocket is built</h2>
-      <p>Four design principles borrowed from how resilient software actually ships, turned into the structure of a party.</p>
+      <p>Design principles borrowed from how resilient software actually ships, turned into the structure of a party. The set is versioned, not fixed. More are coming.</p>
     </div>
     <div class="grid grid-2">
       <div class="card reveal">
@@ -130,6 +130,13 @@ description: "DESH (Democratically Elected System Hackers) is a software-defined
         <span class="kicker">The launchpad</span>
         <h3>Open-source politics</h3>
         <p>Collaborative, merit-based, forkable. Pull requests for policy, peer review by experts, a public changelog for the country. Not personality-driven. Process-driven.</p>
+      </div>
+      <div class="card card-next reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
+        <span class="kicker">v-next</span>
+        <h3>More pillars, coming</h3>
+        <p>Four is not a sacred number. These are the pillars committed so far. Like any good system the design is open and versioned: as we test in the field, new principles ship and weak ones get refactored out. Think we're missing one?</p>
+        <a href="mailto:help.me@joindesh.in?subject=A%20pillar%20you%27re%20missing" class="link-arrow">Propose a pillar <span class="arrow">→</span></a>
       </div>
     </div>
   </div>
