@@ -134,8 +134,8 @@ description: "DESH (Democratically Elected System Hackers) is a software-defined
       <div class="card card-next reveal">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
         <span class="kicker">v-next</span>
-        <h3>More pillars, coming</h3>
-        <p>Four is not a sacred number. These are the pillars committed so far. Like any good system the design is open and versioned: as we test in the field, new principles ship and weak ones get refactored out. Think we're missing one?</p>
+        <h3>Pillars, not institutions</h3>
+        <p>Four pillars of democracy? Four is not a sacred number, and the usual four are the wrong unit. Legislature, executive, judiciary, press are institutions, and institutions are outputs, not foundations. The real pillars are system constraints held by incentive engineering; institutions are a function of them, swappable and testable, never sacred. Think we're missing one?</p>
         <a href="mailto:help.me@joindesh.in?subject=A%20pillar%20you%27re%20missing" class="link-arrow">Propose a pillar <span class="arrow">→</span></a>
       </div>
     </div>
