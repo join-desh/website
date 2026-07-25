@@ -1,24 +1,17 @@
-# GitHub Pages configuration for JoinDesh
-title: "Join Desh - Software Defined Political Party"
-description: "Building India's first software-defined political party with domain experts and transparent governance"
+# Site configuration for DESH / joindesh.in
+title: "desh_ — Corruption is gravity. We're building the rocket."
+description: "DESH is a software-defined political party rebuilding public services from first principles, for anywhere. We don't try to abolish the gravity of corruption. We engineer a system that reaches escape velocity anyway. First test bed: India."
 url: "https://joindesh.in"
 baseurl: ""
+lang: en
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-# Exclude files from processing
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-
 # SEO and social
-author: "JoinDesh Team"
+author: "DESH"
 twitter:
   username: joindesh
   card: summary_large_image
@@ -29,8 +22,17 @@ collections:
     output: true
     permalink: /primitives/:name/
 
-# GitHub Pages specific
+# Plugins (all supported on GitHub Pages)
 plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache

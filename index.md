@@ -1,126 +1,218 @@
 ---
-layout: home
-title: "Join #desh>_ - Democratically Elected System Hackers"
-description: "World's first software-defined political party. Building transparent, algorithmic governance with domain experts for India's future."
+layout: default
+title: "desh_ · Corruption is gravity. We're building the rocket."
+description: "DESH is a software-defined political party rebuilding public services from first principles, for anywhere. Abolishing the gravity of corruption is intractable. We engineer a system that reaches escape velocity anyway. First test bed: India."
 ---
 
-<header>
-    <nav class="container">
-        <a href="/" class="brand">
-            <div class="logo">desh</div>
-            <div class="tagline-header">Not left. Not right. Forward.</div>
-        </a>
-        <button class="mobile-menu-toggle" id="mobile-menu-toggle">Menu</button>
-        <ul class="nav-links" id="nav-links">
-            <li><a href="/about/">About</a></li>
-            <li><a href="/vision/">Vision</a></li>
-            <li><a href="/primitives/">Primitives</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="/join/">Join</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+<section class="hero">
+  <div class="container">
+    <span class="eyebrow">A software-defined political party · first principles</span>
+    <h1>Corruption is gravity.<br>We're building the <span class="ember-text">rocket</span>.</h1>
+    <p class="lede">You can't delete gravity. Try, and the universe collapses. We reached space anyway, not by abolishing the force but by engineering escape velocity. The climb takes real thrust. Orbit, once reached, is nearly free. DESH is that machine, for governance.</p>
+    <div class="hero-cta">
+      <a href="#thesis" class="btn btn-primary">Read the thesis <span class="arrow">→</span></a>
+      <a href="/join/" class="btn btn-ghost">Join the founding 100</a>
+    </div>
 
-<main class="container">
-    <section class="hero">
-        <h1>Democratically Elected System Hackers</h1>
-        <h2>World's First Software-Defined Political Party</h2>
-        <p>Building transparent, algorithmic governance with domain experts who understand how to actually run a modern nation-state.</p>
-        <a href="/join/" class="cta-button">Join the Movement</a>
-    </section>
+    <svg class="trajectory" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A trajectory climbing out of a gravity well into a stable orbit">
+      <defs>
+        <linearGradient id="arc" x1="0" y1="260" x2="820" y2="40" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#8b93ff"/>
+          <stop offset="0.5" stop-color="#ff7a45"/>
+          <stop offset="1" stop-color="#56e1e1"/>
+        </linearGradient>
+        <radialGradient id="well" cx="50%" cy="50%" r="50%">
+          <stop stop-color="#8b93ff" stop-opacity="0.35"/>
+          <stop offset="1" stop-color="#8b93ff" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <!-- gravity well: the pull you can't remove -->
+      <circle cx="118" cy="200" r="92" fill="url(#well)"/>
+      <circle cx="118" cy="200" r="46" stroke="#2a2f45" stroke-width="1.5" stroke-dasharray="3 6"/>
+      <circle cx="118" cy="200" r="70" stroke="#20263a" stroke-width="1.5" stroke-dasharray="3 8"/>
+      <circle cx="118" cy="200" r="6" fill="#8b93ff"/>
+      <!-- the orbit it settles into: nearly free, highest efficiency -->
+      <ellipse cx="742" cy="78" rx="120" ry="34" stroke="#26314a" stroke-width="1.5" stroke-dasharray="4 7"/>
+      <circle cx="742" cy="78" r="4.5" fill="#4a5570"/>
+      <!-- the climb: one hard burn to escape velocity -->
+      <path d="M118 200 C 280 252, 480 196, 566 140 C 616 100, 628 78, 636 62" stroke="url(#arc)" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- the satellite, in orbit -->
+      <circle cx="636" cy="62" r="12" fill="#56e1e1" opacity="0.14"/>
+      <circle cx="636" cy="62" r="6" fill="#56e1e1"/>
+    </svg>
+  </div>
+</section>
 
-    <section class="features" id="about">
-        <div class="feature-card">
-            <h3>🔬 Domain Expertise</h3>
-            <p>Our founding team consists of 100 experts across critical domains - from aviation and software to military and healthcare. We believe in technocratic leadership over traditional politics.</p>
+<section class="thesis" id="thesis">
+  <div class="container">
+    <span class="eyebrow reveal">The thesis</span>
+    <p class="thesis-lead reveal">Corruption is not a bug you can patch out of a person. <span class="muted">It is a force, weak in any one hand and overwhelming in aggregate, that bends every actor toward the same orbit.</span></p>
+
+    <div class="beats">
+      <div class="beat reveal">
+        <span class="n">01</span>
+        <div>
+          <h3>It behaves like gravity</h3>
+          <p>One honest officer, one corrupt officer: each holds a little power. But above every actor sits someone with more, the way the sun outweighs the earth. People don't fall because they're evil; they fall because of the economics of the system they're embedded in. The pull is structural.</p>
         </div>
-
-        <div class="feature-card">
-            <h3>🔍 Transparent Governance</h3>
-            <p>Every decision, vote, and policy change is tracked immutably. Our governance algorithms are open-source and auditable by anyone.</p>
+      </div>
+      <div class="beat reveal">
+        <span class="n">02</span>
+        <div>
+          <h3>You cannot remove it</h3>
+          <p>Deleting gravity doesn't fix the universe. It collapses it. Demand that everyone become a monk and you get no society, no builders, nothing made. Purity crusades against corruption fail for the same reason: they fight physics. It's an intractable problem, and pretending otherwise is how reformers burn out.</p>
         </div>
-
-        <div class="feature-card">
-            <h3>🤖 Algorithmic Selection</h3>
-            <p>We use AI-powered analysis to identify and recruit the best domain experts, ensuring our team has the skills needed to solve real problems.</p>
+      </div>
+      <div class="beat reveal ignite">
+        <span class="n">03</span>
+        <div>
+          <h3>You escape it by engineering</h3>
+          <p>We reached space in spite of gravity, not by abolishing it. It took a rocket: enormous thrust, the right structure, one hard climb to escape velocity. A political system can be built the same way, to run honestly inside a corrupt field instead of waiting for the field to vanish. The climb is the price of admission.</p>
         </div>
-
-        <div class="feature-card">
-            <h3>🌐 Open Source Politics</h3>
-            <p>Like open-source software, our political platform is collaborative, iterative, and merit-based rather than personality-driven.</p>
+      </div>
+      <div class="beat reveal orbit">
+        <span class="n">04</span>
+        <div>
+          <h3>Then it holds orbit</h3>
+          <p>Reaching orbit is brutal. Staying there is nearly free. A satellite coasts for decades on the energy of a single launch, delivering the whole time at almost no cost. A system built right works the same way: honesty stops being a daily fight and becomes the state the structure maintains, running lean, at the highest efficiency, long after the launch.</p>
         </div>
-    </section>
+      </div>
+    </div>
 
-    <section class="blog" id="blog">
-        <h2>Decoding Democracy</h2>
-        <p class="blog-intro">Exploring the intersection of technology, governance, and democratic innovation through the lens of system hackers.</p>
-        
-        <div class="blog-posts">
-            {% for post in site.posts limit:3 %}
-            <article class="blog-post">
-                <h3>{{ post.title }}</h3>
-                <div class="blog-meta">{{ post.meta | default: "$ cat /dev/democracy | grep insights" }}</div>
-                <p>{{ post.description | default: post.excerpt | strip_html | truncate: 200 }}</p>
-                <a href="{{ post.url }}" class="read-more">Read More</a>
-            </article>
-            {% endfor %}
+    <p class="pull reveal">DESH is that rocket. <span class="gradient-text">Engineered to reach escape velocity, then hold an orbit that runs itself.</span></p>
+  </div>
+</section>
+
+<section class="section" id="root">
+  <div class="container">
+    <div class="root-band reveal">
+      <div class="prompt" aria-hidden="true"><span class="p-dim">#</span><span class="gradient-text">desh</span><span class="p-dim">&gt;</span><span class="caret">_</span></div>
+      <div class="root-copy">
+        <span class="eyebrow">The name</span>
+        <h2>Root access to your experience of the country.</h2>
+        <p>The mark is a root shell prompt. <b>#</b> is the superuser, the account that can change anything. <b>&gt;_</b> is the cursor, waiting for a command. The promise is more precise than it first sounds: not root over the country, but root over your experience of it. Everyone is unique, and real freedom is each person getting a personalised version of public services, not one queue and one form for everyone alike. Tailored to you, inside a single hard constraint: justice for all.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="how">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">The engineering</span>
+      <h2>How the rocket is built</h2>
+      <p>Four design principles borrowed from how resilient software actually ships, turned into the structure of a party.</p>
+    </div>
+    <div class="grid grid-2">
+      <div class="card reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <span class="kicker">The crew</span>
+        <h3>Domain experts, not careerists</h3>
+        <p>100 founders who actually run the systems a modern nation depends on: aviation, software, healthcare, military, finance. Aviation policy written by people who've flown and fixed the planes, not by generalists optimizing for the next election.</p>
+      </div>
+      <div class="card reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <span class="kicker">The structure</span>
+        <h3>Transparent by design</h3>
+        <p>Every decision, vote and rupee tracked immutably. Governance logic that's open-source and auditable by anyone. Corruption survives in the dark; this is a system with the lights welded on.</p>
+      </div>
+      <div class="card reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg></div>
+        <span class="kicker">The thrust</span>
+        <h3>Solutions over rhetoric</h3>
+        <p>Naming a problem is not a plan, and a speech is not a fix. Here every proposal ships like code, with a spec, success metrics, a pilot and a rollback plan. What works scales; what fails reverts.</p>
+      </div>
+      <div class="card reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+        <span class="kicker">The launchpad</span>
+        <h3>Open-source politics</h3>
+        <p>Collaborative, merit-based, forkable. Pull requests for policy, peer review by experts, a public changelog for the country. Not personality-driven. Process-driven.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section rule" id="rule">
+  <div class="container">
+    <div class="rule-inner reveal">
+      <span class="eyebrow" style="justify-content:center">The one rule to run</span>
+      <h2 class="rule-line">No solution,<br>no <span class="ember-text">candidacy</span>.</h2>
+      <p class="rule-lead">Naming a problem is not leadership. Amplifying it is not a plan. Today a candidate wins on a speech about what's broken and owes you nothing that works. We invert the qualification. You don't earn the ballot by describing the disease. You earn it by bringing the cure: a solution specific enough to test, pilot and be held to. Rhetoric is free. Solutions are the entry fee.</p>
+      <div class="rule-contrast">
+        <div class="rc-col rc-old">
+          <span class="rc-label">Today</span>
+          <p>Win on a speech about the problem. Deliver nothing. Blame the last office-holder. Run again in five years.</p>
         </div>
-        
-        {% if site.posts.size > 3 %}
-        <div class="blog-archive">
-            <a href="/blog/" class="archive-link">View All Posts</a>
+        <div class="rc-col rc-new">
+          <span class="rc-label">desh</span>
+          <p>Qualify with a working solution. Ship it like code: spec, metric, pilot, rollback. Be measured on the outcome, not the applause.</p>
         </div>
-        {% endif %}
-    </section>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section class="contact" id="contact">
-        <h2>Ready to Build the Future?</h2>
-        <p>We're looking for domain experts who want to move beyond traditional politics and actually solve India's challenges.</p>
-        <p>If you're an expert in aviation, software, military, healthcare, finance, or any critical domain, we want to hear from you.</p>
-        <a href="mailto:help.me@joindesh.in" class="email-link">help.me @ joindesh.in</a>
-    </section>
-</main>
+<section class="section" id="primitives">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">The primitives</span>
+      <h2>The parts of the engine</h2>
+      <p>Open protocols that make software-defined governance real. Read the litepapers.</p>
+    </div>
+    <blockquote class="epigraph reveal">
+      <p>You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.</p>
+      <cite>Buckminster Fuller</cite>
+    </blockquote>
+    <div class="grid grid-3">
+      <div class="primitive reveal">
+        <div class="p-name"><h3>Amplifier</h3><span class="badge">Media</span></div>
+        <p>A decentralized media protocol that turns influence into an earned resource, using Watts and Volts instead of paid promotion, so authentic voices reach scale without buying it.</p>
+        <a href="/assets/documents/Amplifier-1.0.0.pdf" target="_blank" rel="noopener" class="link-arrow">Litepaper <span class="arrow">→</span></a>
+      </div>
+      <div class="primitive reveal">
+        <div class="p-name"><h3>Pulse</h3><span class="badge">Governance</span></div>
+        <p>Decentralized governance and funding as a software-defined process: real-time participation, dynamic delegation and resource allocation through auditable smart contracts.</p>
+        <a href="/assets/documents/Pulse-1.0.0.pdf" target="_blank" rel="noopener" class="link-arrow">Litepaper <span class="arrow">→</span></a>
+      </div>
+      <div class="primitive reveal">
+        <div class="p-name"><h3>FlowVote</h3><span class="badge">Voting</span></div>
+        <p>Liquid democracy in practice: vote directly, or delegate to a trusted expert per domain, and change your mind any time. Verifiable, anonymous, transitive.</p>
+        <a href="/assets/documents/FlowVote-1.0.0.pdf" target="_blank" rel="noopener" class="link-arrow">Litepaper <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
 
-<footer class="container">
-    <p>&copy; 2025 #desh>_. Building India's future through software-defined governance.</p>
-</footer>
+<section class="section" id="blog">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Decoding democracy</span>
+      <h2>Writing</h2>
+      <p>Field notes on governance, engineering and how to leave a corrupt orbit.</p>
+    </div>
+    <div class="grid grid-3">
+      {% for post in site.posts limit:3 %}
+      <a class="post-card reveal" href="{{ post.url }}">
+        <div class="p-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.description | default: post.excerpt | strip_html | truncate: 150 }}</p>
+        <span class="link-arrow">Read <span class="arrow">→</span></span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
 
-<script>
-    // Smooth scrolling for navigation links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
-
-            // Close mobile menu after clicking a link
-            const navLinks = document.getElementById('nav-links');
-            navLinks.classList.remove('active');
-        });
-    });
-
-    // Mobile menu toggle functionality
-    const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
-    const navLinks = document.getElementById('nav-links');
-
-    mobileMenuToggle.addEventListener('click', function () {
-        navLinks.classList.toggle('active');
-
-        // Update button text
-        if (navLinks.classList.contains('active')) {
-            this.textContent = 'Close';
-        } else {
-            this.textContent = 'Menu';
-        }
-    });
-
-    // Close mobile menu when clicking outside
-    document.addEventListener('click', function (e) {
-        if (!e.target.closest('nav') && navLinks.classList.contains('active')) {
-            navLinks.classList.remove('active');
-            mobileMenuToggle.textContent = 'Menu';
-        }
-    });
-</script>
+<section class="cta-band" id="contact">
+  <div class="container">
+    <div class="cta-inner reveal">
+      <span class="eyebrow" style="justify-content:center">Ignition</span>
+      <h2>Join the founding 100</h2>
+      <p>A hundred people is the legal threshold to register a political party in India, our first test bed. We want that hundred to be domain experts who run the systems a country depends on, not careerists. Be one of them, and help us reach escape velocity.</p>
+      <div class="hero-cta">
+        <a href="/join/" class="btn btn-primary">Apply to join <span class="arrow">→</span></a>
+        <a href="mailto:help.me@joindesh.in" class="btn btn-ghost">help.me@joindesh.in</a>
+      </div>
+    </div>
+  </div>
+</section>

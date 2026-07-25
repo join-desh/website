@@ -1,129 +1,77 @@
 ---
-layout: home
-title: "Our Vision - Software-Defined Democracy"
-description: "DESH's vision for the future of governance: transparent, algorithmic, and expert-driven democracy for India."
+layout: default
+title: "Vision · desh_"
+description: "A software-defined democracy, rethought from first principles: government that runs with the efficiency of well-architected software, the transparency of open source, and the judgment of domain experts. Test bed: India, blueprint for anywhere."
 ---
 
-<header>
-    <nav class="container">
-        <a href="/" class="brand">
-            <div class="logo">desh</div>
-            <div class="tagline-header">Not left. Not right. Forward.</div>
-        </a>
-        <button class="mobile-menu-toggle" id="mobile-menu-toggle">Menu</button>
-        <ul class="nav-links" id="nav-links">
-            <li><a href="/about/">About</a></li>
-            <li><a href="/vision/" class="active">Vision</a></li>
-            <li><a href="/primitives/">Primitives</a></li>
-            <li><a href="/#blog">Blog</a></li>
-            <li><a href="/join/">Join</a></li>
-            <li><a href="/#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+<section class="hero" style="padding-bottom:2rem">
+  <div class="container narrow">
+    <span class="eyebrow">The vision</span>
+    <h1 style="font-size:clamp(2.4rem,6vw,4rem)">Software-defined democracy.</h1>
+    <p class="lede">A government that runs with the efficiency of well-architected software, the transparency of open source, and the judgment of specialists who actually know the domain. Built from first principles, for any country. India is where we test it first.</p>
+  </div>
+</section>
 
-<main class="container">
-    <section class="hero">
-        <h1>Our Vision</h1>
-        <h2>Software-Defined Democracy for India</h2>
-        <p>Imagine a government that operates with the efficiency of well-architected software, the transparency of open-source projects, and the expertise of domain specialists.</p>
-    </section>
+<section class="section" style="padding-top:1rem">
+  <div class="container">
+    <div class="grid grid-2">
+      <div class="card reveal">
+        <span class="kicker">Government as code</span>
+        <h3>Codified & version-controlled</h3>
+        <p>Policies, decisions and processes are codified, versioned and auditable. Citizens can track every change, see the reasoning, and contribute improvements through a transparent process.</p>
+      </div>
+      <div class="card reveal">
+        <span class="kicker">Evidence-based</span>
+        <h3>Metrics, not slogans</h3>
+        <p>Every policy ships with success metrics, a testing phase and a rollback mechanism if targets aren't met. Decisions follow data and outcomes, not rhetoric.</p>
+      </div>
+      <div class="card reveal">
+        <span class="kicker">Expert leadership</span>
+        <h3>The right hands on the wheel</h3>
+        <p>Aviation policy by aviation experts, health policy by health professionals, cyber frameworks by security specialists. No more generalists deciding what they don't understand.</p>
+      </div>
+      <div class="card reveal">
+        <span class="kicker">Distributed</span>
+        <h3>Resilient by architecture</h3>
+        <p>Like distributed systems: local autonomy, fault tolerance, and decision-making that scales from village to nation without a single point of failure.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section class="features">
-        <div class="feature-card">
-            <h3>🏛️ Government as Code</h3>
-            <p>All policies, decisions, and processes are codified, version-controlled, and auditable. Citizens can track every change, understand the reasoning, and contribute to improvements through a transparent democratic process.</p>
-        </div>
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">The future we're building</span>
+      <h2>A democracy that learns</h2>
+      <p>It adapts and improves continuously, the way the best software systems do.</p>
+    </div>
+    <div class="grid grid-3">
+      <div class="card reveal">
+        <span class="kicker">$ top -p governance</span>
+        <h3>Real-time dashboard</h3>
+        <p>Citizens monitor performance live: budget utilization, implementation progress, outcome metrics and resource allocation, all transparent and accessible.</p>
+      </div>
+      <div class="card reveal">
+        <span class="kicker">$ git merge policy</span>
+        <h3>CI for policy</h3>
+        <p>New policies pass automated testing, expert peer review, public consultation and pilots before deploy. Failures are caught and rolled back fast.</p>
+      </div>
+      <div class="card reveal">
+        <span class="kicker">$ analyze --impact</span>
+        <h3>Decision support</h3>
+        <p>Models help predict outcomes, flag risks and suggest optimizations from historical data and comparable implementations worldwide, assisting judgment rather than replacing it.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <div class="feature-card">
-            <h3>🎯 Evidence-Based Governance</h3>
-            <p>Decisions are made based on data, research, and measurable outcomes rather than political rhetoric. Every policy comes with success metrics, testing phases, and rollback mechanisms if targets aren't met.</p>
-        </div>
-
-        <div class="feature-card">
-            <h3>🔬 Domain Expert Leadership</h3>
-            <p>Aviation policy is made by aviation experts, healthcare policy by healthcare professionals, and cybersecurity frameworks by cybersecurity specialists. No more generalist politicians making uninformed decisions.</p>
-        </div>
-
-        <div class="feature-card">
-            <h3>🌐 Distributed Democracy</h3>
-            <p>Like distributed systems, governance is decentralized with local autonomy, fault tolerance, and scalable decision-making processes that work from village level to national policy.</p>
-        </div>
-    </section>
-
-    <section class="blog">
-        <h2>The Future We're Building</h2>
-        <div class="blog-intro">
-            <p>A democracy that learns, adapts, and improves continuously - just like the best software systems.</p>
-        </div>
-        
-        <div class="blog-posts">
-            <article class="blog-post">
-                <h3>📊 Real-Time Governance Dashboard</h3>
-                <div class="blog-meta">$ top -p governance</div>
-                <p>Citizens can monitor government performance in real-time: budget utilization, policy implementation progress, outcome metrics, and resource allocation - all transparent and accessible.</p>
-            </article>
-
-            <article class="blog-post">
-                <h3>🔄 Continuous Integration for Policy</h3>
-                <div class="blog-meta">$ git merge feature/healthcare-reform</div>
-                <p>New policies go through automated testing, peer review by experts, public consultation, and pilot programs before being deployed. Failed policies are quickly identified and rolled back.</p>
-            </article>
-
-            <article class="blog-post">
-                <h3>🤖 AI-Assisted Decision Making</h3>
-                <div class="blog-meta">$ ./analyze-policy-impact --domain=education</div>
-                <p>Machine learning models help predict policy outcomes, identify potential issues, and suggest optimizations based on historical data and similar implementations worldwide.</p>
-            </article>
-        </div>
-    </section>
-
-    <section class="contact">
-        <h2>Help Us Build the Future</h2>
-        <p>This vision requires system architects, domain experts, and citizens who believe in evidence-based governance.</p>
-        <p>Join us in debugging democracy and implementing a government that actually works for the people.</p>
-        <a href="/join/" class="email-link">Join the Movement</a>
-    </section>
-</main>
-
-<footer class="container">
-    <p>&copy; 2025 #desh>_. Building India's future through software-defined governance.</p>
-</footer>
-
-<script>
-    // Smooth scrolling for navigation links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const target = this.getAttribute('href').substring(1);
-            if (target) {
-                window.location.href = '/#' + target;
-            }
-        });
-    });
-
-    // Mobile menu toggle functionality
-    const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
-    const navLinks = document.getElementById('nav-links');
-
-    if (mobileMenuToggle && navLinks) {
-        mobileMenuToggle.addEventListener('click', function () {
-            navLinks.classList.toggle('active');
-
-            // Update button text
-            if (navLinks.classList.contains('active')) {
-                this.textContent = 'Close';
-            } else {
-                this.textContent = 'Menu';
-            }
-        });
-
-        // Close mobile menu when clicking outside
-        document.addEventListener('click', function (e) {
-            if (!e.target.closest('nav') && navLinks.classList.contains('active')) {
-                navLinks.classList.remove('active');
-                mobileMenuToggle.textContent = 'Menu';
-            }
-        });
-    }
-</script>
+<section class="cta-band">
+  <div class="container">
+    <div class="cta-inner reveal">
+      <h2>Help us build it</h2>
+      <p>This vision needs system architects, domain experts and citizens who believe in evidence-based governance.</p>
+      <a href="/join/" class="btn btn-primary">Join the movement <span class="arrow">→</span></a>
+    </div>
+  </div>
+</section>
