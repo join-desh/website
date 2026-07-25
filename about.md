@@ -1,14 +1,14 @@
 ---
 layout: default
 title: "About · #desh>_"
-description: "DESH is the world's first software-defined political party: domain experts applying engineering principles to governance instead of career politicians optimizing for the next election."
+description: "DESH is a software-defined think tank building the world's first software-defined political party: domain experts applying engineering principles to governance instead of career politicians optimising for the next election."
 ---
 
 <section class="hero" style="padding-bottom:2rem">
   <div class="container narrow">
     <span class="eyebrow">About</span>
     <h1 style="font-size:clamp(2.4rem,6vw,4rem)">We debug democracy.</h1>
-    <p class="lede">DESH, Democratically Elected System Hackers, is the world's first software-defined political party. We treat governance as a system to be engineered, not a stage to perform on. We start from first principles, with no loyalty to how things have always been done. India is our first test bed; the design is for anywhere.</p>
+    <p class="lede">DESH, Democratically Elected System Hackers, is a software-defined think tank building the world's first software-defined political party. The think tank is now, open to anyone who passes the core; the party is where it is headed. We treat governance as a system to be engineered, not a stage to perform on, from first principles, with no loyalty to how things have always been done. India is our first test bed; the design is for anywhere.</p>
   </div>
 </section>
 

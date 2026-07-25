@@ -1,12 +1,12 @@
 ---
 layout: default
 title: "Corruption is gravity. We're building the rocket."
-description: "DESH (Democratically Elected System Hackers) is a software-defined political party rebuilding public services from first principles, for anywhere. Abolishing the gravity of corruption is intractable. We engineer a system that reaches escape velocity anyway. First test bed: India."
+description: "DESH (Democratically Elected System Hackers) is a software-defined think tank building a political party. We rebuild public services from first principles, for anywhere. Abolishing the gravity of corruption is intractable; we engineer a system that reaches escape velocity anyway. First test bed: India."
 ---
 
 <section class="hero">
   <div class="container">
-    <span class="eyebrow">A software-defined political party · first principles</span>
+    <span class="eyebrow">A software-defined think tank · building a political party</span>
     <h1>Corruption is gravity.<br>We're building the <span class="ember-text">rocket</span>.</h1>
     <p class="lede">You can't delete gravity. We reached space anyway, not by abolishing the force but by engineering escape velocity. The climb takes real thrust. Orbit, once reached, is nearly free. DESH is that machine, for governance.</p>
     <div class="hero-cta">
