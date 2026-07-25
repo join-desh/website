@@ -17,7 +17,7 @@ permalink: /curriculum/
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">The core</span>
-      <h2>Six subjects, before you're onboarded</h2>
+      <h2>The reading, before you're onboarded</h2>
       <p>Read them the way a hacker reads a manual: to reason with, not to recite. The core is versioned; subjects get added as the field demands.</p>
     </div>
     <div class="grid grid-3">
@@ -50,6 +50,17 @@ permalink: /curriculum/
         <span class="kicker">06 · Seeing the machine</span>
         <h3>Systems Thinking</h3>
         <p>Feedback loops, stocks and flows, leverage points, why interventions backfire. Reading a whole system instead of its parts. The habit that separates a hacker from a commentator: you fix the structure, not the symptom.</p>
+      </div>
+      <div class="card reveal">
+        <span class="kicker">07 · The substrate</span>
+        <h3>Technology</h3>
+        <p>Paper, printing and double-entry bookkeeping were once the technology of the state: they made evidence, records and dissemination possible. Today the substrate is cryptography, decentralised computing, peer-to-peer networks and AI. You study what each can remove: which choke point it deletes, which constraint it can enforce without a trusted middleman. And the critical half: where it only relocates the rent, and why centralised tech becomes its own gravity well. We favour what stays distributed.</p>
+      </div>
+      <div class="card card-next reveal">
+        <span class="kicker">v-next</span>
+        <h3>Propose a subject</h3>
+        <p>The core is a living syllabus, not a canon. If a discipline belongs in the foundation and is missing, make the case. Strong arguments get added; weak ones get refactored out.</p>
+        <a href="mailto:help.me@joindesh.in?subject=A%20subject%20for%20the%20core" class="link-arrow">Suggest one <span class="arrow">→</span></a>
       </div>
     </div>
   </div>
