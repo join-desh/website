@@ -8,7 +8,7 @@ description: "A hundred people is the legal threshold to register a political pa
   <div class="container narrow">
     <span class="eyebrow">Join</span>
     <h1 style="font-size:clamp(2.4rem,6vw,4rem)">Become a <span class="ember-text">System Hacker</span>.</h1>
-    <p class="lede">The think tank is now; the party comes later. A hundred people is the legal threshold to register a political party in India, our first test bed, and that hundred will be drawn from the think tank. Clear the <a href="/curriculum/">curriculum</a>, contribute, and be one of them.</p>
+    <p class="lede">The lab is now; the party comes later. A hundred people is the legal threshold to register a political party in India, our first test bed, and that hundred will be drawn from the lab. Clear the <a href="/curriculum/">curriculum</a>, contribute, and be one of them.</p>
     <div class="stats">
       <div class="stat"><div class="num gradient-text">100</div><div class="lbl">To register the party</div></div>
       <div class="stat"><div class="num gradient-text">10+</div><div class="lbl">Years in-domain</div></div>

@@ -9,7 +9,7 @@ permalink: /curriculum/
   <div class="container narrow">
     <span class="eyebrow">Eligibility</span>
     <h1 style="font-size:clamp(2.4rem,6vw,4rem)">Before you participate, you learn.</h1>
-    <p class="lede">We are a think tank first, and a political party later. Most politics asks nothing of the people who practice it; we ask for fluency in the mechanisms before anything else. Borrowing MIT's idea of a General Institute Requirement, everyone completes a shared core before they contribute, whatever field they arrive from. Not a credential. A working literacy in how systems, incentives and justice actually behave. The think tank is open to anyone who clears it.</p>
+    <p class="lede">We are a lab first, and a political party later. Most politics asks nothing of the people who practice it; we ask for fluency in the mechanisms before anything else. Borrowing MIT's idea of a General Institute Requirement, everyone completes a shared core before they contribute, whatever field they arrive from. Not a credential. A working literacy in how systems, incentives and justice actually behave. The lab is open to anyone who clears it.</p>
   </div>
 </section>
 
@@ -78,7 +78,7 @@ permalink: /curriculum/
   <div class="container narrow" style="text-align:center">
     <span class="eyebrow reveal" style="justify-content:center">A voice for everyone</span>
     <h2 class="reveal" style="font-size:clamp(2rem,5vw,3.2rem);margin:1.1rem 0 1.4rem;letter-spacing:-0.03em">Even children have a <span class="gradient-text">voice</span> here.</h2>
-    <p class="reveal" style="color:var(--text-muted);font-size:1.12rem;line-height:1.75;max-width:660px;margin:0 auto">You cannot join a political party in India before you turn eighteen. You can join a think tank at any age. So the people with the longest stake in the future, and the least cynicism about it, get shut out of shaping it. We let them in. Pass the curriculum and your age stops mattering; your reasoning does not.</p>
+    <p class="reveal" style="color:var(--text-muted);font-size:1.12rem;line-height:1.75;max-width:660px;margin:0 auto">You cannot join a political party in India before you turn eighteen. You can join a lab at any age. So the people with the longest stake in the future, and the least cynicism about it, get shut out of shaping it. We let them in. Pass the curriculum and your age stops mattering; your reasoning does not.</p>
     <p class="reveal" style="color:var(--text);font-family:var(--font-display);font-weight:500;font-size:clamp(1.2rem,3vw,1.65rem);line-height:1.35;max-width:640px;margin:1.7rem auto 0">You don't fight the rule that shut them out. You find the gap it left open and route the voice through. That is a system hack, and it is exactly how you escape gravity.</p>
   </div>
 </section>
@@ -87,8 +87,8 @@ permalink: /curriculum/
   <div class="container">
     <div class="cta-inner reveal">
       <span class="eyebrow" style="justify-content:center">Open to anyone who passes</span>
-      <h2>Pass the core, join the think tank.</h2>
-      <p>The think tank has one gate, and it is the curriculum, not a resume or a connection. Clear it and you are in: contribute mechanisms, argue the specs, help build what the future party will run on. The hundred who register the party will be drawn from exactly this pool.</p>
+      <h2>Pass the core, join the lab.</h2>
+      <p>The lab has one gate, and it is the curriculum, not a resume or a connection. Clear it and you are in: contribute mechanisms, argue the specs, help build what the future party will run on. The hundred who register the party will be drawn from exactly this pool.</p>
       <a href="/join/" class="btn btn-primary">Start here <span class="arrow">→</span></a>
     </div>
   </div>

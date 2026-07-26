@@ -1,14 +1,14 @@
 ---
 layout: default
 title: "Corruption is gravity. We're building the rocket."
-description: "DESH (Democratically Elected System Hackers) is a software-defined think tank building a political party. We rebuild public services from first principles, for anywhere. Abolishing the gravity of corruption is intractable; we engineer a system that reaches escape velocity anyway. First test bed: India."
+description: "DESH (Democratically Elected System Hackers) is a lab building a software-defined political party. We rebuild public services from first principles, for anywhere. Abolishing the gravity of corruption is intractable; we engineer a system that reaches orbit anyway. First test bed: India."
 ---
 
 <section class="hero">
   <div class="container">
-    <span class="eyebrow">A software-defined think tank · building a political party</span>
+    <span class="eyebrow">A lab · building a software-defined political party</span>
     <h1>Corruption is gravity.<br>We're building the <span class="ember-text">rocket</span>.</h1>
-    <p class="lede">You can't delete gravity. We reached space anyway, not by abolishing the force but by engineering escape velocity. The climb takes real thrust. Orbit, once reached, is nearly free. DESH is that machine, for governance.</p>
+    <p class="lede">You can't delete gravity. We reached space anyway, not by abolishing the force but by out-engineering it. The climb takes real thrust. Orbit, once reached, is nearly free. DESH is that machine, for governance.</p>
     <div class="hero-cta">
       <a href="#thesis" class="btn btn-primary">Read the thesis <span class="arrow">→</span></a>
       <a href="/join/" class="btn btn-ghost">Join the founding 100</a>
@@ -34,7 +34,7 @@ description: "DESH (Democratically Elected System Hackers) is a software-defined
       <!-- the orbit it settles into: nearly free, highest efficiency -->
       <ellipse cx="742" cy="78" rx="120" ry="34" stroke="#26314a" stroke-width="1.5" stroke-dasharray="4 7"/>
       <circle cx="742" cy="78" r="4.5" fill="#4a5570"/>
-      <!-- the climb: one hard burn to escape velocity -->
+      <!-- the climb: one hard burn to orbit -->
       <path d="M118 200 C 280 252, 480 196, 566 140 C 616 100, 628 78, 636 62" stroke="url(#arc)" stroke-width="2.5" stroke-linecap="round"/>
       <!-- the satellite, in orbit -->
       <circle cx="636" cy="62" r="12" fill="#56e1e1" opacity="0.14"/>
@@ -79,7 +79,7 @@ description: "DESH (Democratically Elected System Hackers) is a software-defined
       </div>
     </div>
 
-    <p class="pull reveal">DESH is that rocket. <span class="gradient-text">Engineered to reach escape velocity, then hold an orbit that runs itself.</span></p>
+    <p class="pull reveal">DESH is that rocket. <span class="gradient-text">Engineered to reach orbit, and hold it nearly free.</span></p>
   </div>
 </section>
 
@@ -111,7 +111,7 @@ description: "DESH (Democratically Elected System Hackers) is a software-defined
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
         <span class="kicker">The crew</span>
         <h3>Domain experts, not careerists</h3>
-        <p>100 founders who actually run the systems a modern nation depends on: aviation, software, healthcare, military, finance. Aviation policy written by people who've flown and fixed the planes, not by generalists optimizing for the next election.</p>
+        <p>100 founders who actually run the systems a modern nation depends on: aviation, software, healthcare, military, finance. Aviation policy written by people who've flown and fixed the planes, not by generalists optimising for the next election.</p>
       </div>
       <div class="card reveal">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></div>
@@ -185,12 +185,12 @@ description: "DESH (Democratically Elected System Hackers) is a software-defined
     <div class="grid grid-3">
       <div class="primitive reveal">
         <div class="p-name"><h3>Amplifier</h3><span class="badge">Media</span></div>
-        <p>A decentralized media protocol that turns influence into an earned resource, using Watts and Volts instead of paid promotion, so authentic voices reach scale without buying it.</p>
+        <p>A decentralised media protocol that turns influence into an earned resource, using Watts and Volts instead of paid promotion, so authentic voices reach scale without buying it.</p>
         <a href="/assets/documents/Amplifier-1.0.0.pdf" target="_blank" rel="noopener" class="link-arrow">Litepaper <span class="arrow">→</span></a>
       </div>
       <div class="primitive reveal">
         <div class="p-name"><h3>Pulse</h3><span class="badge">Governance</span></div>
-        <p>Decentralized governance and funding as a software-defined process: real-time participation, dynamic delegation and resource allocation through auditable smart contracts.</p>
+        <p>Decentralised governance and funding as a software-defined process: real-time participation, dynamic delegation and resource allocation through auditable smart contracts.</p>
         <a href="/assets/documents/Pulse-1.0.0.pdf" target="_blank" rel="noopener" class="link-arrow">Litepaper <span class="arrow">→</span></a>
       </div>
       <div class="primitive reveal">
@@ -227,7 +227,7 @@ description: "DESH (Democratically Elected System Hackers) is a software-defined
     <div class="cta-inner reveal">
       <span class="eyebrow" style="justify-content:center">Ignition</span>
       <h2>Join the founding 100</h2>
-      <p>A hundred people is the legal threshold to register a political party in India, our first test bed. We want that hundred to be domain experts who run the systems a country depends on, not careerists. Be one of them, and help us reach escape velocity.</p>
+      <p>A hundred people is the legal threshold to register a political party in India, our first test bed. We want that hundred to be domain experts who run the systems a country depends on, not careerists. Be one of them, and help us reach orbit.</p>
       <div class="hero-cta">
         <a href="/join/" class="btn btn-primary">Apply to join <span class="arrow">→</span></a>
         <a href="mailto:help.me@joindesh.in" class="btn btn-ghost">help.me@joindesh.in</a>

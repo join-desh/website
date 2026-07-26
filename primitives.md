@@ -18,12 +18,12 @@ permalink: /primitives/
     <div class="grid grid-3">
       <div class="primitive reveal">
         <div class="p-name"><h3>Amplifier</h3><span class="badge">Media</span></div>
-        <p>A decentralized media protocol that transforms influence into an earned resource through Watts and Volts currencies, eliminating paid promotion while letting authentic community voices reach massive scale through earned influence.</p>
+        <p>A decentralised media protocol that transforms influence into an earned resource through Watts and Volts currencies, eliminating paid promotion while letting authentic community voices reach massive scale through earned influence.</p>
         <a href="/assets/documents/Amplifier-1.0.0.pdf" target="_blank" rel="noopener" class="link-arrow">Read litepaper <span class="arrow">→</span></a>
       </div>
       <div class="primitive reveal">
         <div class="p-name"><h3>Pulse</h3><span class="badge">Governance</span></div>
-        <p>A decentralized governance and funding platform that turns democracy into a software-defined process: real-time citizen participation, dynamic delegation and resource allocation through blockchain-based smart contracts.</p>
+        <p>A decentralised governance and funding platform that turns democracy into a software-defined process: real-time citizen participation, dynamic delegation and resource allocation through blockchain-based smart contracts.</p>
         <a href="/assets/documents/Pulse-1.0.0.pdf" target="_blank" rel="noopener" class="link-arrow">Read litepaper <span class="arrow">→</span></a>
       </div>
       <div class="primitive reveal">

@@ -60,7 +60,7 @@ description: "A software-defined democracy, rethought from first principles: gov
       <div class="card reveal">
         <span class="kicker">$ analyze --impact</span>
         <h3>Decision support</h3>
-        <p>Models help predict outcomes, flag risks and suggest optimizations from historical data and comparable implementations worldwide, assisting judgment rather than replacing it.</p>
+        <p>Models help predict outcomes, flag risks and suggest optimisations from historical data and comparable implementations worldwide, assisting judgment rather than replacing it.</p>
       </div>
     </div>
   </div>
