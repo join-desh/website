@@ -1,0 +1,60 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
+<style>
+  :root{--violet:#8b93ff;--cyan:#56e1e1;--ember:#ff7a45;--ember2:#ffb14e;--text:#eef1f8;--muted:#9aa3b4;--faint:#6a7284;--bg:#07080b}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1200px;height:630px;overflow:hidden}
+  body{background:var(--bg);position:relative;font-family:'Space Grotesk',sans-serif}
+  .cosmos{position:absolute;inset:0;background:
+    radial-gradient(680px 520px at 84% 8%, rgba(139,147,255,.22), transparent 60%),
+    radial-gradient(560px 460px at 10% 14%, rgba(86,225,225,.12), transparent 62%),
+    radial-gradient(820px 560px at 55% 126%, rgba(255,122,69,.17), transparent 60%),
+    var(--bg);}
+  .stars{position:absolute;inset:0;opacity:.5;background-repeat:repeat;background-size:500px 500px;background-image:
+    radial-gradient(1.6px 1.6px at 60px 90px, rgba(255,255,255,.7), transparent),
+    radial-gradient(1.4px 1.4px at 210px 40px, rgba(255,255,255,.5), transparent),
+    radial-gradient(1.3px 1.3px at 350px 160px, rgba(255,255,255,.45), transparent),
+    radial-gradient(1.8px 1.8px at 430px 300px, rgba(255,255,255,.6), transparent),
+    radial-gradient(1.3px 1.3px at 120px 260px, rgba(255,255,255,.4), transparent),
+    radial-gradient(1.5px 1.5px at 280px 420px, rgba(255,255,255,.5), transparent),
+    radial-gradient(1.2px 1.2px at 40px 400px, rgba(255,255,255,.4), transparent);}
+  svg.traj{position:absolute;inset:0}
+  .center{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:30px;text-align:center}
+  .eyebrow{font-family:'JetBrains Mono',monospace;font-size:19px;letter-spacing:.30em;text-transform:uppercase;color:var(--faint)}
+  .mark{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:120px;letter-spacing:-.05em;line-height:1;white-space:nowrap}
+  .mark .g{background:linear-gradient(115deg,var(--violet) 15%,var(--cyan) 92%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .mark .dim{color:var(--text)}
+  .mark .cur{color:var(--cyan)}
+  .tag{font-family:'Space Grotesk',sans-serif;font-weight:500;font-size:44px;letter-spacing:.005em}
+  .tag .m{color:var(--muted)}
+  .tag .f{background:linear-gradient(90deg,var(--ember2),var(--ember));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;font-weight:700}
+</style></head>
+<body>
+  <div class="cosmos"></div>
+  <div class="stars"></div>
+  <svg class="traj" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="arc" x1="180" y1="540" x2="1060" y2="110" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#8b93ff"/><stop offset=".5" stop-color="#ff7a45"/><stop offset="1" stop-color="#56e1e1"/>
+      </linearGradient>
+      <radialGradient id="well" cx="50%" cy="50%" r="50%">
+        <stop stop-color="#8b93ff" stop-opacity=".34"/><stop offset="1" stop-color="#8b93ff" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <circle cx="185" cy="540" r="110" fill="url(#well)"/>
+    <circle cx="185" cy="540" r="55" stroke="#2a2f45" stroke-width="1.6" stroke-dasharray="4 9"/>
+    <circle cx="185" cy="540" r="7.5" fill="#8b93ff"/>
+    <ellipse cx="1052" cy="118" rx="92" ry="26" transform="rotate(-16 1052 118)" stroke="#26314a" stroke-width="1.6" stroke-dasharray="5 9"/>
+    <path d="M185 540 C 400 592, 640 560, 800 424 C 930 314, 1010 190, 1038 132" stroke="url(#arc)" stroke-width="3.4" stroke-linecap="round" opacity=".85"/>
+    <circle cx="1038" cy="132" r="13" fill="#56e1e1" opacity=".18"/>
+    <circle cx="1038" cy="132" r="7" fill="#56e1e1"/>
+  </svg>
+  <div class="center">
+    <div class="eyebrow">A lab · building a software-defined political party</div>
+    <div class="mark"><span class="dim">#</span><span class="g">desh</span><span class="dim">&gt;</span><span class="cur">_</span></div>
+    <div class="tag"><span class="m">Not left. Not right.</span> <span class="f">Forward.</span></div>
+  </div>
+</body></html>
