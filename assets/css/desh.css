@@ -89,6 +89,10 @@ body {
 }
 @keyframes drift { to { background-position: 700px 700px; } }
 
+/* ---- Inline text links (buttons/nav/footer carry their own classes) ------ */
+a { color: var(--cyan); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; text-decoration-color: rgba(86, 225, 225, 0.45); transition: text-decoration-color 0.2s var(--ease), color 0.2s var(--ease); }
+a:hover { text-decoration-color: var(--cyan); }
+
 /* ---- Layout primitives --------------------------------------------------- */
 .container { width: 100%; max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
 .narrow { max-width: var(--maxw-narrow); }
