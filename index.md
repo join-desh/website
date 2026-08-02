@@ -87,12 +87,12 @@ description: "DESH (Democratically Elected System Hackers) is a lab building a s
   <div class="container">
     <div class="name-band reveal">
       <div class="name-mark">
-        <div class="prompt" aria-hidden="true"><span class="gradient-text">desh</span><span class="p-dim">&gt;</span><span class="caret">_</span></div>
+        <div class="prompt" aria-hidden="true">desh&gt;<span class="caret">_</span></div>
         <p class="prompt-caption">Democratically Elected<br>System Hackers</p>
       </div>
       <div class="name-copy">
         <span class="eyebrow">The name</span>
-        <h2>Programmatic access to citizen experience.</h2>
+        <h2>Programmable citizen experience.</h2>
         <p>The mark is a command prompt. <b>&gt;_</b> is the cursor, waiting for an instruction. Note what is missing from it: there is no superuser. A decentralised system has no account that can change everything, and building one would just rebuild the thing we are trying to leave. What it offers instead is programmatic access — public services exposed as parts you can call and combine, so each person assembles the version that fits their life rather than queueing for the one version that fits nobody. Composable, not administered. Tailored to you, inside a single hard constraint: justice for all.</p>
       </div>
     </div>
