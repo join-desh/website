@@ -169,11 +169,15 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 600; line-height: 1.
 }
 .nav { display: flex; align-items: center; justify-content: space-between; height: 72px; }
 .brand { display: flex; align-items: baseline; gap: 0.7rem; text-decoration: none; color: var(--text); }
+/* The gradient lives on the whole mark, not on `desh` alone, so the ramp runs
+   across every glyph including > and _ instead of finishing early. */
 .brand .mark {
   font-family: var(--font-mono); font-weight: 700; font-size: 1.35rem; letter-spacing: -0.03em;
-  color: var(--text);
+  background: var(--accent-grad);
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent; color: transparent;
 }
-.brand .mark b { background: var(--accent-grad); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+.brand .mark b { font-weight: inherit; }
 .brand-tag {
   font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.08em;
   color: var(--text-faint); display: none;
@@ -270,13 +274,17 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 600; line-height: 1.
 .name-band .prompt {
   font-family: var(--font-mono); font-weight: 700; letter-spacing: -0.04em; line-height: 1;
   font-size: clamp(2.2rem, 7vw, 3.8rem); white-space: nowrap;
+  background: var(--accent-grad);
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent; color: transparent;
 }
-.name-band .prompt .p-dim { color: var(--text); }
 .prompt-caption {
   font-family: var(--font-mono); font-size: 0.78rem; letter-spacing: 0.14em; text-transform: uppercase;
   color: var(--text-muted); margin-top: 1.1rem; line-height: 1.55;
 }
-.name-band .caret { color: var(--cyan); animation: blink 1.1s steps(1) infinite; }
+/* Blink via opacity, not colour — the glyph now takes its colour from the
+   parent's clipped gradient, so a `color` here would have no effect. */
+.name-band .caret { animation: blink 1.1s steps(1) infinite; }
 @keyframes blink { 50% { opacity: 0; } }
 .name-copy h2 { font-size: clamp(1.7rem, 4.4vw, 2.7rem); margin: 1rem 0; letter-spacing: -0.03em; }
 .name-copy p { color: var(--text-muted); font-size: 1.06rem; }
@@ -451,7 +459,13 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 600; line-height: 1.
 /* ---- Footer -------------------------------------------------------------- */
 .site-footer { border-top: 1px solid var(--border); padding: 3.5rem 0 2.5rem; margin-top: 2rem; }
 .footer-grid { display: flex; flex-wrap: wrap; gap: 2rem; justify-content: space-between; align-items: flex-start; }
-.footer-brand .mark { font-family: var(--font-mono); font-weight: 700; font-size: 1.2rem; }
+.footer-brand .mark {
+  font-family: var(--font-mono); font-weight: 700; font-size: 1.2rem;
+  background: var(--accent-grad);
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent; color: transparent;
+  display: inline-block;
+}
 .footer-acronym { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-faint); margin-top: 0.55rem; }
 .footer-brand p { color: var(--text-faint); font-size: 0.9rem; margin-top: 0.8rem; max-width: 320px; }
 .footer-links { display: flex; gap: 2.5rem; flex-wrap: wrap; }
