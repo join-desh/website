@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Primitives · #desh>_"
-description: "Three open protocols that make software-defined governance real: Amplifier, Pulse and FlowVote. Read the litepapers."
+title: "Primitives · desh>_"
+description: "The open protocols software-defined governance runs on. Three are specified so far — Amplifier, Pulse and FlowVote — and the list is not finished. Read the litepapers."
 permalink: /primitives/
 ---
 
@@ -9,7 +9,7 @@ permalink: /primitives/
   <div class="container narrow">
     <span class="eyebrow">Primitives</span>
     <h1 style="font-size:clamp(2.4rem,6vw,4rem)">The parts of the engine.</h1>
-    <p class="lede">Three open protocols: media that cannot be bought, governance that can be audited, and a vote you can lend to someone who knows more than you and take back the same afternoon. Each has a litepaper below. They are specifications rather than manifestos, and the useful response to a specification is an objection.</p>
+    <p class="lede">Three open protocols so far: media that cannot be bought, governance that can be audited, and a vote you can lend to someone who knows more than you and take back the same afternoon. Each has a litepaper below. They are specifications rather than manifestos, and the useful response to a specification is an objection. The engine needs more parts than three, and the rest are still being worked out.</p>
   </div>
 </section>
 
@@ -30,6 +30,11 @@ permalink: /primitives/
         <div class="p-name"><h3>FlowVote</h3><span class="badge">Voting</span></div>
         <p>Liquid democracy, made operational. Vote on what you care about and hand the rest to someone whose judgement you trust, one domain at a time. Delegation is transitive, revocable the moment you change your mind, and verifiable without exposing who you are.</p>
         <a href="/assets/documents/FlowVote-1.0.0.pdf" target="_blank" rel="noopener" class="link-arrow">Read litepaper <span class="arrow">→</span></a>
+      </div>
+      <div class="primitive card-next reveal">
+        <div class="p-name"><h3>Propose a primitive</h3><span class="badge">v-next</span></div>
+        <p>Media, money and voting are the three we have specified. They are not the whole engine. If a mechanism belongs in the foundation and none of these cover it, write the spec and make the case — same bar as the others, and it has to survive the five tests.</p>
+        <a href="mailto:help.me@joindesh.in?subject=A%20primitive%20you%27re%20missing" class="link-arrow">Propose one <span class="arrow">→</span></a>
       </div>
     </div>
   </div>

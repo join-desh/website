@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Vision · #desh>_"
+title: "Vision · desh>_"
 description: "A state you can read: every rule it runs on written down, every change recorded, every outcome measured against what was promised. Test bed: India. The design assumes nothing about India."
 ---
 

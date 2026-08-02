@@ -83,17 +83,17 @@ description: "DESH (Democratically Elected System Hackers) is a lab building a s
   </div>
 </section>
 
-<section class="section" id="root">
+<section class="section" id="name">
   <div class="container">
-    <div class="root-band reveal">
-      <div class="root-mark">
-        <div class="prompt" aria-hidden="true"><span class="p-dim">#</span><span class="gradient-text">desh</span><span class="p-dim">&gt;</span><span class="caret">_</span></div>
+    <div class="name-band reveal">
+      <div class="name-mark">
+        <div class="prompt" aria-hidden="true"><span class="gradient-text">desh</span><span class="p-dim">&gt;</span><span class="caret">_</span></div>
         <p class="prompt-caption">Democratically Elected<br>System Hackers</p>
       </div>
-      <div class="root-copy">
+      <div class="name-copy">
         <span class="eyebrow">The name</span>
-        <h2>Root access to your experience of the country.</h2>
-        <p>The mark is a root shell prompt. <b>#</b> is the superuser, the account that can change anything. <b>&gt;_</b> is the cursor, waiting for a command. The promise is more precise than it first sounds: not root over the country, but root over your experience of it. Everyone is unique, and real freedom is each person getting a personalised version of public services, not one queue and one form for everyone alike. Tailored to you, inside a single hard constraint: justice for all.</p>
+        <h2>Programmatic access to citizen experience.</h2>
+        <p>The mark is a command prompt. <b>&gt;_</b> is the cursor, waiting for an instruction. Note what is missing from it: there is no superuser. A decentralised system has no account that can change everything, and building one would just rebuild the thing we are trying to leave. What it offers instead is programmatic access — public services exposed as parts you can call and combine, so each person assembles the version that fits their life rather than queueing for the one version that fits nobody. Composable, not administered. Tailored to you, inside a single hard constraint: justice for all.</p>
       </div>
     </div>
   </div>
@@ -178,7 +178,7 @@ description: "DESH (Democratically Elected System Hackers) is a lab building a s
     <div class="section-head reveal">
       <span class="eyebrow">The primitives</span>
       <h2>The parts of the engine</h2>
-      <p>Three open protocols the rest of it runs on. Each one is specified in a litepaper.</p>
+      <p>The open protocols the rest of it runs on, each specified in a litepaper. Three are worked out so far. The list is not finished.</p>
     </div>
     <blockquote class="epigraph reveal">
       <p>You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.</p>

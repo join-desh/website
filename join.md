@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Join · #desh>_"
+title: "Join · desh>_"
 description: "A hundred people is the legal threshold to register a political party in India, our first test bed. We want that hundred to be domain experts. Clear the curriculum, contribute, and be one of them."
 ---
 

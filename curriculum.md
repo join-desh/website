@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Curriculum · #desh>_"
+title: "Curriculum · desh>_"
 description: "The bar for membership is a shared core. Before onboarding, every member gains working fluency in justice, economics, public policy, social physics, incentive engineering and systems thinking. Your domain gets you in the room; the core gets you a vote."
 permalink: /curriculum/
 ---

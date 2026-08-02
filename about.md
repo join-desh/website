@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "About · #desh>_"
+title: "About · desh>_"
 description: "DESH is a lab building a software-defined political party: people who run the systems a country depends on, applying engineering discipline to governing instead of career politicians optimising for the next election."
 ---
 

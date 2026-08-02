@@ -1,4 +1,4 @@
-# #desh>_
+# desh>_
 
 Source for [joindesh.in](https://joindesh.in).
 
@@ -59,4 +59,4 @@ help.me@joindesh.in
 
 ---
 
-**© 2025 #desh>_** · Not left. Not right. Forward.
+**© 2025 desh>_** · Not left. Not right. Forward.
