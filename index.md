@@ -67,7 +67,7 @@ description: "DESH (Democratically Elected System Hackers) is a lab building a s
         <span class="n">03</span>
         <div>
           <h3>You out-engineer it</h3>
-          <p>Every new commission, every committee, every extra layer of oversight is weight with no thrust. It doesn't just fail to move the vehicle, it reduces how far the vehicle can go at all, and we have been bolting them on since 1947. The engine is the other thing entirely: a layer of modern technology that makes the old system obsolete. You don't post a guard at the counter where the money changes hands. You build the thing that removes the counter.</p>
+          <p>Every new commission, every committee, every extra layer of oversight is weight with no thrust. It doesn't just fail to move the vehicle, it reduces how far the vehicle can go at all, and we have been bolting them on since 1947. The engine is the other thing entirely: an overlay of modern technology that makes the old system obsolete. You don't post a guard at the counter where the money changes hands. You build the thing that removes the counter.</p>
         </div>
       </div>
       <div class="beat reveal orbit">
