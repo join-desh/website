@@ -53,7 +53,7 @@ description: "DESH (Democratically Elected System Hackers) is a lab building a s
         <span class="n">01</span>
         <div>
           <h3>It behaves like gravity</h3>
-          <p>Corruption is not evil. It is ambition and self-interest, the same drive that builds everything, running downhill because the incentives slope that way. Each actor holds a little pull, and above each sits someone with more, the way the sun outweighs the earth. People don't fall because they're bad. They fall because the system around them points down. The pull is structural, and it lives in all of us.</p>
+          <p>Corruption comes from ambition and self-interest, the same drive that builds everything, running downhill because the incentives slope that way. Each actor holds a little pull, and above each sits someone with more, the way the sun outweighs the earth. People don't fall because they're bad. They fall because the system around them points down. The pull is structural, and it lives in all of us.</p>
         </div>
       </div>
       <div class="beat reveal">
