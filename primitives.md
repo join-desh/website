@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Primitives · #desh>_"
-description: "The open protocols that make software-defined governance real: Amplifier, Pulse and FlowVote. Read the litepapers."
+description: "Three open protocols that make software-defined governance real: Amplifier, Pulse and FlowVote. Read the litepapers."
 permalink: /primitives/
 ---
 
@@ -9,7 +9,7 @@ permalink: /primitives/
   <div class="container narrow">
     <span class="eyebrow">Primitives</span>
     <h1 style="font-size:clamp(2.4rem,6vw,4rem)">The parts of the engine.</h1>
-    <p class="lede">The fundamental building blocks of software-defined governance: open protocols, specified in the litepapers below.</p>
+    <p class="lede">Three open protocols: media that cannot be bought, governance that can be audited, and a vote you can lend to someone who knows more than you and take back the same afternoon. Each has a litepaper below. They are specifications rather than manifestos, and the useful response to a specification is an objection.</p>
   </div>
 </section>
 
@@ -18,17 +18,17 @@ permalink: /primitives/
     <div class="grid grid-3">
       <div class="primitive reveal">
         <div class="p-name"><h3>Amplifier</h3><span class="badge">Media</span></div>
-        <p>A decentralised media protocol that transforms influence into an earned resource through Watts and Volts currencies, eliminating paid promotion while letting authentic community voices reach massive scale through earned influence.</p>
+        <p>Reach as something earned rather than bought. Influence is metered in two units, Watts and Volts, and there is no route to purchasing either. The question the protocol exists to answer: what does a media layer look like when paid promotion is not a feature someone switched off, but a thing the design cannot express?</p>
         <a href="/assets/documents/Amplifier-1.0.0.pdf" target="_blank" rel="noopener" class="link-arrow">Read litepaper <span class="arrow">→</span></a>
       </div>
       <div class="primitive reveal">
         <div class="p-name"><h3>Pulse</h3><span class="badge">Governance</span></div>
-        <p>A decentralised governance and funding platform that turns democracy into a software-defined process: real-time citizen participation, dynamic delegation and resource allocation through blockchain-based smart contracts.</p>
+        <p>Governance and funding as a process that runs, not an event that recurs. Participation is continuous, delegation moves as circumstances do, and money travels through contracts anyone can read. The ledger is not the point. The point is that an allocation and the argument for it are the same record.</p>
         <a href="/assets/documents/Pulse-1.0.0.pdf" target="_blank" rel="noopener" class="link-arrow">Read litepaper <span class="arrow">→</span></a>
       </div>
       <div class="primitive reveal">
         <div class="p-name"><h3>FlowVote</h3><span class="badge">Voting</span></div>
-        <p>Liquid democracy made practical: vote directly on what you care about, or delegate your vote to a trusted expert per domain. Transitive, revocable at any time, and cryptographically verifiable.</p>
+        <p>Liquid democracy, made operational. Vote on what you care about and hand the rest to someone whose judgement you trust, one domain at a time. Delegation is transitive, revocable the moment you change your mind, and verifiable without exposing who you are.</p>
         <a href="/assets/documents/FlowVote-1.0.0.pdf" target="_blank" rel="noopener" class="link-arrow">Read litepaper <span class="arrow">→</span></a>
       </div>
     </div>
@@ -40,8 +40,8 @@ permalink: /primitives/
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">Deep dives</span>
-      <h2>Building blocks of modern democracy</h2>
-      <p>The core mechanisms and algorithms behind transparent, expert-driven governance.</p>
+      <h2>Working notes</h2>
+      <p>Longer pieces on the mechanisms these protocols are assembled from.</p>
     </div>
     <div class="grid grid-3">
       {% for post in site.categories.primitives %}

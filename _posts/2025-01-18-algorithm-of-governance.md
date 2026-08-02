@@ -2,120 +2,74 @@
 layout: post
 title: "The Algorithm of Governance"
 meta: "$ cat /dev/democracy | grep transparency"
-description: "How can we apply software engineering principles to create more transparent and efficient governance systems?"
+description: "Four practices software borrowed from nowhere in particular and refined until being wrong stopped being fatal. Which of them survive translation into government, and the exact place the metaphor breaks."
+tags: [engineering, policy, metrics, method]
 ---
 
-How can we apply software engineering principles to create more transparent and efficient governance systems? We explore the parallels between debugging code and fixing democratic processes.
+**Everything worth stealing from software engineering exists for one reason: to make being wrong survivable.**
 
-## The Bug Report: Democracy v1.0
+## What software is good at
 
-Traditional democracy operates like legacy code - functional but inefficient, opaque, and prone to corruption bugs. Consider these common issues:
+Software is not admirable because it is fast. Most of it is slow, and the fast parts are fast for boring reasons. It is admirable because a large system, built by people who mostly have never met, changing every day, can be wrong on Tuesday and correct by Wednesday — and the mechanism for that is written down and available to anyone.
 
-```bash
-$ grep -r "corruption" /var/log/government/
-/var/log/government/contracts.log: ERROR: Transparency check failed
-/var/log/government/decisions.log: WARNING: Input validation bypassed
-/var/log/government/accountability.log: FATAL: Audit trail not found
-```
+Government has no equivalent. A programme that turns out to be wrong in its second year is usually still running in its eleventh, not because anyone defends it but because the machinery for noticing and the machinery for undoing were never built. Not dismantled. Never built.
 
-## Refactoring Democracy: The DESH Approach
+So the question isn't whether governing is *like* coding. It isn't, and I'll say exactly where the analogy breaks. The question is narrower: which specific practices make error cheap, and which of those survive translation?
 
-### Version Control for Policies
+There are four. It is a shorter list than the metaphor usually implies.
 
-Every policy change should be tracked like code commits:
+## 1. The change is written down before it happens
 
-```git
-git log --oneline /policies/healthcare.md
-a1b2c3d feat: Add universal healthcare coverage
-d4e5f6g fix: Remove insurance company loopholes  
-g7h8i9j docs: Update implementation timeline
-```
+Not the decision. The *proposed* decision, in advance, with the reasoning attached, in a form someone else can object to.
 
-### Code Reviews for Legislation
+This sounds trivial and it is the whole game. The reason a code review works is not that reviewers are clever. It is that writing down what you intend to do, before you do it, surfaces a good share of your own errors to you while you are still typing. The reviewer catches a second tranche. Nobody in the loop had to be exceptional.
 
-Before any law is merged into the main branch, it needs:
-- **Peer review** by domain experts
-- **Impact analysis** with measurable metrics  
-- **Test cases** for edge scenarios
-- **Documentation** in plain language
+India has a partial version of this in pre-legislative consultation policy, which asks that draft laws be published for thirty days of comment. It is honoured inconsistently and it has no teeth. The gap between that and a functioning review process is not philosophical. It is that one is mandatory and blocking, and the other is a courtesy.
 
-### Continuous Integration for Governance
+## 2. Someone who knows the area has to read it
 
-```yaml
-# .github/workflows/policy-review.yml
-name: Policy Review Pipeline
-on: [pull_request]
-jobs:
-  expert-review:
-    runs-on: domain-experts
-    steps:
-      - name: Technical feasibility check
-      - name: Economic impact analysis  
-      - name: Constitutional compliance test
-      - name: Public consultation integration
-```
+Review by a generalist is theatre. The value is entirely in the reviewer having built the thing before and remembering how it failed last time.
 
-## The Stack: Technology for Transparency
+This is the practice that most obviously fails to translate, because legislatures are built on the opposite premise: that a representative's mandate qualifies them for any subject placed in front of them. A parliamentary standing committee is the closest existing analogue, and its members are assigned by party arithmetic rather than by what they know.
 
-### Frontend: Citizen Interface
-- **Real-time policy tracking** dashboard
-- **Impact visualization** with data charts
-- **Direct feedback** mechanisms
-- **Voting history** transparency
+## 3. It goes out to a few before it goes out to everyone
 
-### Backend: Governance Engine  
-- **Immutable decision logs** on blockchain
-- **Automated compliance** checking
-- **Performance metrics** monitoring
-- **Audit trail** generation
+Canary releases, staged rollouts, feature flags — the family of techniques for limiting the blast radius of a mistake. You ship to one percent, watch the instruments, and only widen when the instruments say nothing is on fire.
 
-### Database: Knowledge Management
-- **Expert profiles** and credentials verification
-- **Policy outcomes** historical data
-- **Best practices** repository
-- **Failure analysis** documentation
+Pilots exist in policy and they are usually decorative. A pilot that cannot fail is not a pilot; it is a press event held early. The test is whether anyone specified, in writing and before launch, the result that would stop the rollout.
 
-## Debugging Democracy: Common Patterns
+## 4. You can put it back
 
-### The Null Pointer Exception
-**Problem**: Policies referencing undefined implementation details
-**Solution**: Mandatory specification of execution mechanisms
+The one that matters most, and the one almost nothing in government has.
 
-### The Memory Leak
-**Problem**: Bureaucratic processes that consume resources without cleanup
-**Solution**: Automated sunset clauses and efficiency monitoring
+A revert is not an admission of incompetence. In a well-run system it is a Tuesday. The teams that revert most freely ship the most ambitious changes, precisely because the cost of being wrong has been engineered down to a few minutes. The teams that cannot revert become conservative, then sclerotic, then obsolete.
 
-### The Race Condition  
-**Problem**: Conflicting policies implemented simultaneously
-**Solution**: Dependency management and sequential deployment
+> **Ambition is downstream of reversibility. A system that cannot undo will eventually stop trying.**
 
-## Testing in Production: Pilot Programs
+Sunset clauses are the closest legislative instrument, and they are rare, and they are routinely extended without anyone re-examining the case. A rollback that requires the same effort as the original launch is not a rollback.
 
-Before rolling out major changes:
+## Where the metaphor breaks
 
-```python
-def test_policy_implementation():
-    pilot_regions = select_diverse_sample()
-    for region in pilot_regions:
-        results = deploy_policy(region, monitoring=True)
-        metrics = analyze_outcomes(results)
-        if metrics.success_rate > 0.8:
-            continue
-        else:
-            rollback_and_iterate(region)
-```
+Now the part that would be dishonest to leave out.
 
-## The Pull Request: Join the Development
+**Goodhart's law eats this whole approach if you let it.** The moment a measure becomes a target, it stops measuring what it measured. Ask a hospital to reduce waiting times and it will reduce recorded waiting times. Ask a police force to reduce reported crime and reports will fall. Every one of the four practices above depends on instrumentation, and instrumentation in a system full of people who are being judged by it is a live adversarial problem, not a dashboard.
 
-Democracy needs system administrators who understand both code and governance. If you're ready to debug the system, submit your application to help.me@joindesh.in.
+Software has a mild version of this — teams gaming their own metrics — and it is mild because the numbers usually come from machines that have no stake. In government the numbers come from the people being measured. That is a different discipline, and anyone selling you "metrics for policy" without saying so is selling you a dashboard that will be beautiful and false.
 
-**Next Steps:**
-1. Fork the current system
-2. Identify critical bugs  
-3. Propose algorithmic solutions
-4. Submit pull requests for review
-5. Deploy tested improvements
+The partial answer, and it is only partial: measure things that are expensive to fake, prefer numbers collected by someone with no stake in them, and treat any metric that improves suspiciously fast as a bug report about the metric.
 
----
+**The second break is worse. You cannot revert a year of someone's life.** A failed deploy costs downtime. A failed benefits transition costs people their rations, and there is no version control that gives those months back. This is why staged rollout is not one practice among four but the load-bearing one: the point of the small pilot is that the irreversible harm stays small.
 
-*This post is part of our "Decoding Democracy" series. Follow our repository for updates on software-defined governance.*
+And a third, which is really a warning about ourselves. **Conway's law** says a system's architecture ends up mirroring the communication structure of the organisation that built it. It holds outside software too. Build a party with a charismatic centre and you will produce centralised governance no matter what the manifesto says. The org chart is the first line of the specification, and it is written before anyone notices they are writing it.
+
+## The test
+
+None of this is a claim that governing is engineering. It is a claim that four specific habits make error cheap, that government has approximately none of them, and that this is a design choice rather than a law of nature.
+
+So the version of the five tests that applies here: **does the proposal make being wrong cheaper, or does it only make being right more likely?** The second is a wish. The first is a mechanism.
+
+Most reform is the second, which is why most reform requires better people, which is why most reform is fuel mass.
+
+Tell us where this is wrong.
+
+**`#desh>_`**

@@ -24,7 +24,7 @@ permalink: /curriculum/
       <div class="card reveal">
         <span class="kicker">01 · The constraint</span>
         <h3>A Theory of Justice</h3>
-        <p>Every design here runs inside one hard boundary: justice for all. You cannot hold that boundary without a rigorous account of what fairness is. Rawls and the veil of ignorance, Sen on capabilities, the strongest arguments against both. Not to recite. To reason with.</p>
+        <p>Every design here runs inside one hard boundary: justice for all. You cannot hold that boundary without a rigorous account of what fairness is. Rawls and the veil of ignorance, Sen on capabilities, and the strongest arguments against both. You should be able to state the case against your own position before you state your own.</p>
       </div>
       <div class="card reveal">
         <span class="kicker">02 · How value moves</span>
@@ -79,7 +79,7 @@ permalink: /curriculum/
     <span class="eyebrow reveal" style="justify-content:center">A voice for everyone</span>
     <h2 class="reveal" style="font-size:clamp(2rem,5vw,3.2rem);margin:1.1rem 0 1.4rem;letter-spacing:-0.03em">Even children have a <span class="gradient-text">voice</span> here.</h2>
     <p class="reveal" style="color:var(--text-muted);font-size:1.12rem;line-height:1.75;max-width:660px;margin:0 auto">You cannot join a political party in India before you turn eighteen. You can join a lab at any age. So the people with the longest stake in the future, and the least cynicism about it, get shut out of shaping it. We let them in. Pass the curriculum and your age stops mattering; your reasoning does not.</p>
-    <p class="reveal" style="color:var(--text);font-family:var(--font-display);font-weight:500;font-size:clamp(1.2rem,3vw,1.65rem);line-height:1.35;max-width:640px;margin:1.7rem auto 0">You don't fight the rule that shut them out. You find the gap it left open and route the voice through. That is a system hack, and it is exactly how you escape gravity.</p>
+    <p class="reveal" style="color:var(--text);font-family:var(--font-display);font-weight:500;font-size:clamp(1.2rem,3vw,1.65rem);line-height:1.35;max-width:640px;margin:1.7rem auto 0">You don't fight the rule that shut them out. You find the gap it left open and route the voice through. That is a system hack, and it is exactly how anything ever reaches orbit.</p>
   </div>
 </section>
 

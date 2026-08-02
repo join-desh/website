@@ -104,14 +104,14 @@ description: "DESH (Democratically Elected System Hackers) is a lab building a s
     <div class="section-head reveal">
       <span class="eyebrow">The engineering</span>
       <h2>How the rocket is built</h2>
-      <p>Design principles borrowed from how resilient software actually ships, turned into the structure of a party. The set is versioned, not fixed. More are coming.</p>
+      <p>Design principles taken from how resilient software gets shipped, turned into the structure of a party. The set is versioned, not fixed. More are coming.</p>
     </div>
     <div class="grid grid-2">
       <div class="card reveal">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
         <span class="kicker">The crew</span>
         <h3>Domain experts, not careerists</h3>
-        <p>100 founders who actually run the systems a modern nation depends on: aviation, software, healthcare, military, finance. Aviation policy written by people who've flown and fixed the planes, not by generalists optimising for the next election.</p>
+        <p>100 founders drawn from the people who keep a modern country running: aviation, software, healthcare, military, finance. Aviation policy written by people who have flown and fixed the planes, rather than by generalists optimising for the next election.</p>
       </div>
       <div class="card reveal">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></div>
@@ -123,13 +123,13 @@ description: "DESH (Democratically Elected System Hackers) is a lab building a s
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg></div>
         <span class="kicker">The thrust</span>
         <h3>Solutions over rhetoric</h3>
-        <p>Naming a problem is not a plan, and a speech is not a fix. Here every proposal ships like code, with a spec, success metrics, a pilot and a rollback plan. What works scales; what fails reverts.</p>
+        <p>Every proposal here ships like code: a spec, the number it has to move, a pilot small enough to survive being wrong, and a way back. What clears the pilot scales. What doesn't gets reverted on the record, with the reasoning kept.</p>
       </div>
       <div class="card reveal">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
         <span class="kicker">The launchpad</span>
         <h3>Open-source politics</h3>
-        <p>Collaborative, merit-based, forkable. Pull requests for policy, peer review by experts, a public changelog for the country. Not personality-driven. Process-driven.</p>
+        <p>Policy arrives as a proposal anyone can read, gets reviewed by people who know the domain, and lands in a changelog the country can check. Disagreements are recorded rather than smoothed over. Fork it if we get it wrong; that option existing is most of what keeps us honest.</p>
       </div>
       <div class="card card-next reveal">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
@@ -166,8 +166,8 @@ description: "DESH (Democratically Elected System Hackers) is a lab building a s
   <div class="container narrow">
     <span class="eyebrow reveal">Why now</span>
     <h2 class="reveal" style="font-size:clamp(2rem,4.6vw,3rem);margin:1.1rem 0 1.4rem;letter-spacing:-0.03em">Software-defined, literally.</h2>
-    <p class="reveal" style="color:var(--text-muted);font-size:1.12rem;line-height:1.75">Embodied intelligence is arriving, and AI is moving into the execution of nearly everything. As machines carry out more of the work of the state, the gap between writing a policy and running it collapses. Governance stops being a speech and becomes software that executes, measurably, at scale. A software-defined party is not a metaphor we borrowed. It is the form governance takes in this era.</p>
-    <p class="reveal" style="color:var(--text-muted);font-size:1.12rem;line-height:1.75;margin-top:1.2rem">A party built as software today is the operating system for that world. We start AI-native, not retrofitting a twentieth-century machine. The incumbent system is legacy code we did not write and cannot patch. We are shipping the next version.</p>
+    <p class="reveal" style="color:var(--text-muted);font-size:1.12rem;line-height:1.75">Machines are moving into the execution layer of the state: the assessment, the disbursement, the inspection, the routing of a case from one desk to the next. As that happens, the distance between writing a rule and running it collapses to nothing. A policy stops being a document that humans interpret and becomes a system that executes, which means it can finally be tested, and also that it can fail silently at a scale no clerk ever managed.</p>
+    <p class="reveal" style="color:var(--text-muted);font-size:1.12rem;line-height:1.75;margin-top:1.2rem">So "software-defined" is not a metaphor we borrowed from technology. It is a description of what governing is turning into, whether or not anyone designs for it. Whoever specifies that layer sets the defaults for everything downstream, and almost nobody currently qualified to specify it works in politics. The incumbent system is legacy code we did not write and cannot patch. We would rather build the next version than keep bolting onto this one.</p>
   </div>
 </section>
 
@@ -176,7 +176,7 @@ description: "DESH (Democratically Elected System Hackers) is a lab building a s
     <div class="section-head reveal">
       <span class="eyebrow">The primitives</span>
       <h2>The parts of the engine</h2>
-      <p>Open protocols that make software-defined governance real. Read the litepapers.</p>
+      <p>Three open protocols the rest of it runs on. Each one is specified in a litepaper.</p>
     </div>
     <blockquote class="epigraph reveal">
       <p>You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.</p>
@@ -185,17 +185,17 @@ description: "DESH (Democratically Elected System Hackers) is a lab building a s
     <div class="grid grid-3">
       <div class="primitive reveal">
         <div class="p-name"><h3>Amplifier</h3><span class="badge">Media</span></div>
-        <p>A decentralised media protocol that turns influence into an earned resource, using Watts and Volts instead of paid promotion, so authentic voices reach scale without buying it.</p>
+        <p>Reach you cannot buy. Influence is metered in Watts and Volts, and the protocol has no way to express paid promotion at all.</p>
         <a href="/assets/documents/Amplifier-1.0.0.pdf" target="_blank" rel="noopener" class="link-arrow">Litepaper <span class="arrow">→</span></a>
       </div>
       <div class="primitive reveal">
         <div class="p-name"><h3>Pulse</h3><span class="badge">Governance</span></div>
-        <p>Decentralised governance and funding as a software-defined process: real-time participation, dynamic delegation and resource allocation through auditable smart contracts.</p>
+        <p>Continuous governance and funding, where the money that moved and the reason for moving it are a single auditable record.</p>
         <a href="/assets/documents/Pulse-1.0.0.pdf" target="_blank" rel="noopener" class="link-arrow">Litepaper <span class="arrow">→</span></a>
       </div>
       <div class="primitive reveal">
         <div class="p-name"><h3>FlowVote</h3><span class="badge">Voting</span></div>
-        <p>Liquid democracy in practice: vote directly, or delegate to a trusted expert per domain, and change your mind any time. Verifiable, anonymous, transitive.</p>
+        <p>Delegate your vote by subject to someone who knows more than you, and withdraw it in a second. Transitive, and anonymous even to us.</p>
         <a href="/assets/documents/FlowVote-1.0.0.pdf" target="_blank" rel="noopener" class="link-arrow">Litepaper <span class="arrow">→</span></a>
       </div>
     </div>
@@ -207,7 +207,7 @@ description: "DESH (Democratically Elected System Hackers) is a lab building a s
     <div class="section-head reveal">
       <span class="eyebrow">Decoding democracy</span>
       <h2>Writing</h2>
-      <p>Field notes on governance, engineering and how to leave a corrupt orbit.</p>
+      <p>Field notes on governance, engineering, and the mechanics of leaving the ground.</p>
     </div>
     <div class="grid grid-3">
       {% for post in site.posts limit:3 %}
