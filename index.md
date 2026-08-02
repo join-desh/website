@@ -66,8 +66,8 @@ description: "DESH (Democratically Elected System Hackers) is a lab building a s
       <div class="beat reveal ignite">
         <span class="n">03</span>
         <div>
-          <h3>You aim it by engineering</h3>
-          <p>You don't suppress self-interest, you change what it pays for. What burns in this engine is honest effort and the political attention that funds it: finite, perishable, gone the moment something else becomes urgent. An engine's whole job is to set how far each unit of that carries you, and the rocket equation is unforgiving about it. Carry more and you buy a logarithm. Throw it out faster and you buy a straight line. Another commission watching the commissions burns the scarce thing continuously and moves almost nothing; UPI burned it once. So the test for any reform is one question: does it need more honest people, or does it make each honest act count for more?</p>
+          <h3>You out-engineer it</h3>
+          <p>Every new commission, every committee, every extra layer of oversight is weight with no thrust. It doesn't just fail to move the vehicle, it reduces how far the vehicle can go at all, and we have been bolting them on since 1947. The engine is the other thing entirely: a layer of modern technology that makes the old system obsolete. You don't post a guard at the counter where the money changes hands. You build the thing that removes the counter.</p>
         </div>
       </div>
       <div class="beat reveal orbit">

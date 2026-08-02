@@ -90,7 +90,7 @@ Orbit is not escape. **Orbit is falling, and moving sideways fast enough that yo
 
 That is the actual target, and it is a much more honest one than any manifesto currently offers. Not a country without corruption. A country moving sideways fast enough that corruption never lands.
 
-And note the economics, because they match what we observe about institutional change. Reaching orbit is brutally, almost obscenely expensive. *Staying* there is nearly free. The cost is entirely front-loaded into the mechanism. Once UPI existed, the marginal cost of the next billion honest transactions was approximately zero.
+And note the economics, because they match what we observe about institutional change. Reaching orbit is brutally, almost obscenely expensive. *Staying* there is nearly free. The cost is entirely front-loaded into the mechanism. Once the mechanism exists, the marginal cost of the next million honest transactions is approximately zero.
 
 ## VI. The rocket equation as political theory
 
@@ -120,17 +120,17 @@ Almost everything in Indian public debate is fuel.
 
 ## VII. We have already built rockets
 
-This is not theory. We have done it twice in a decade, and both times we did it without a single speech about morality.
+This is not theory. We have done it before, more than once, and never once by giving a speech about morality.
 
-**UPI.** Nobody defeated cash-based leakage by moralising about it. Nobody arrested their way out. We made moving money instant, near-free and traceable, and an entire category of friction stopped being worth anyone's time. A vegetable vendor with a QR code is now running better payments infrastructure than most of the developed world. Note what did *not* happen: nobody's character improved.
+**The telephone.** For most of independent India, getting a line meant a waiting list measured in years and a payment to somebody willing to move your name up it. Nobody solved that by disciplining the linemen or auditing the exchange. A different technology arrived, the copper stopped mattering, and an entire economy of small extortion evaporated with it. Note what did *not* happen: nobody's character improved.
 
-**Direct Benefit Transfer.** It did not reform the middleman. It deleted the place where the middleman used to stand. That is the purest expression of the principle available: do not police the choke point, *remove* it.
+**The reservation counter.** Booking a train seat once meant a clerk with a ledger and a tout who knew which clerk. Computerising the reservation did not reform either of them. It deleted the ledger, and with it the discretion the whole arrangement fed on. That is the purest expression of the principle available: do not police the choke point, *remove* it.
 
 **RTI, 2005.** It did not make officials honest. It made opacity expensive. One citizen, one application, one statutory clock. Exhaust velocity in legislative form.
 
 Boring. Mechanical. Unromantic. Worth more, collectively, than every speech given in the same period.
 
-**And now the caveats, because a mechanism-first politics that cannot audit its own mechanisms is just a different flavour of faith.** DBT and its identity layer produced real exclusion errors: people who were entitled and were denied, in some cases catastrophically. Digitisation moved some rent extraction rather than ending it, from the counter to the operator, from the file to the database. RTI has been weakened by vacancies, delays and amendments to the commissioners' terms. UPI has concentrated enormous volume into a very small number of private apps, which is a mass problem forming in real time.
+**And now the caveats, because a mechanism-first politics that cannot audit its own mechanisms is just a different flavour of faith.** Digitising a public service reliably produces exclusion errors: people who are entitled and are denied because the system does not recognise them, in some cases catastrophically. Digitisation also moves rent rather than ending it, from the counter to the operator, from the file to the database — automated booking now takes scarce railway inventory in seconds, which is the tout problem rewritten in software. RTI has been weakened by vacancies, delays and amendments to the commissioners' terms. And telecom, having dissolved one choke point, has concentrated into a handful of private networks, which is a mass problem forming in real time.
 
 None of that refutes the argument. It *is* the argument. Rockets fail. The response to a failed launch is not to declare spaceflight impossible; it is to read the telemetry. What is unforgivable is refusing to look at it because the vehicle carries your name.
 
@@ -194,7 +194,7 @@ A metaphor that cannot be turned into a test is just a nice sentence. So here is
 Does it require more honest people, or does it make each honest act count for more? If the answer is "more inspectors," it is fuel. Reject it.
 
 **2. Does it remove the choke point, or police it?**
-Corruption needs a bottleneck where someone can stand. Guarding the bottleneck creates a new position worth capturing. Deleting the bottleneck ends the game. DBT deleted. Most reform guards.
+Corruption needs a bottleneck where someone can stand. Guarding the bottleneck creates a new position worth capturing. Deleting the bottleneck ends the game. Almost everything currently proposed guards it.
 
 **3. Does it survive bad people?**
 Assume everyone operating the mechanism is entirely self-interested. If it still produces the right outcome, it is a machine. If it only works when staffed by good people, it is a prayer. We only publish machines.
