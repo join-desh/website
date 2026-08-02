@@ -67,7 +67,7 @@ description: "DESH (Democratically Elected System Hackers) is a lab building a s
         <span class="n">03</span>
         <div>
           <h3>You aim it by engineering</h3>
-          <p>We reached space in spite of gravity, not by abolishing it but by working with it. Ambition is no different: you don't suppress it, you aim it. That is incentive engineering, and done right the very drive that pulls a system into corruption becomes the thrust that lifts it. The climb takes real force, and it is the price of admission.</p>
+          <p>You don't suppress self-interest, you change what it pays for. What burns in this engine is honest effort and the political attention that funds it: finite, perishable, gone the moment something else becomes urgent. An engine's whole job is to set how far each unit of that carries you, and the rocket equation is unforgiving about it. Carry more and you buy a logarithm. Throw it out faster and you buy a straight line. Another commission watching the commissions burns the scarce thing continuously and moves almost nothing; UPI burned it once. So the test for any reform is one question: does it need more honest people, or does it make each honest act count for more?</p>
         </div>
       </div>
       <div class="beat reveal orbit">
