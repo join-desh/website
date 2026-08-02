@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Join · #desh>_"
-description: "A hundred people is the legal threshold to register a political party in India, our first test bed. We want that hundred to be domain experts. Be one of them. Submit your expertise portfolio."
+description: "A hundred people is the legal threshold to register a political party in India, our first test bed. We want that hundred to be domain experts. Clear the curriculum, contribute, and be one of them."
 ---
 
 <section class="hero" style="padding-bottom:2rem">
@@ -23,22 +23,22 @@ description: "A hundred people is the legal threshold to register a political pa
       <div class="card reveal">
         <span class="kicker">Who we want</span>
         <h3>Domain experts</h3>
-        <p>10+ years of hands-on experience in a critical field: aviation, software, military, healthcare, finance, infrastructure, education, agriculture, and more.</p>
+        <p>Ten years or more of hands-on work in something a country cannot do without: aviation, software, defence, medicine, finance, infrastructure, teaching, farming. Not ten years of having views about it. Ten years inside it.</p>
       </div>
       <div class="card reveal">
         <span class="kicker">Requirements</span>
         <h3>Proof, not credentials</h3>
-        <p>A track record of solving real problems. Evidence-based thinking. A genuine willingness to work in the open, transparently.</p>
+        <p>A degree tells us where you sat. We want problems you have closed, the constraints you were under, and the parts that went wrong. Working in the open is a condition of entry: reasoning you cannot show is not evidence.</p>
       </div>
       <div class="card reveal">
         <span class="kicker">Selection</span>
         <h3>Peer-reviewed</h3>
-        <p>Submit a portfolio → peer review by existing experts → a problem-solving interview → background and ethics screening. Merit decides.</p>
+        <p>You send a portfolio. People already in your domain read it. Then a conversation about a hard problem in your field, and a check on background and conflicts. Nobody gets in by knowing someone, and that includes knowing us.</p>
       </div>
       <div class="card reveal">
         <span class="kicker">The work</span>
         <h3>Build the system</h3>
-        <p>Draft evidence-based policy in your domain, architect transparent governance processes, and review proposals from other experts.</p>
+        <p>Specifications, not position papers. Take one mechanism in your domain, set out what it is meant to do and what it does instead, propose something testable. Then read other people's and say plainly where they are wrong.</p>
       </div>
     </div>
   </div>
@@ -49,23 +49,23 @@ description: "A hundred people is the legal threshold to register a political pa
     <div class="section-head reveal">
       <span class="eyebrow">Critical domains</span>
       <h2>Where the system needs you</h2>
-      <p>Experts who understand how to actually run the systems that keep any modern nation-state functioning.</p>
+      <p>Every one of these is currently regulated by people who have never operated it.</p>
     </div>
     <div class="grid grid-3">
       <div class="card reveal">
-        <span class="kicker">Infrastructure & transport</span>
-        <h3>Move the nation</h3>
-        <p>Aviation (pilots, ATC, safety engineers), railways, highways, ports, logistics and maritime engineering.</p>
+        <span class="kicker">Infrastructure &amp; transport</span>
+        <h3>Runways, rails and ports</h3>
+        <p>Pilots, controllers and safety engineers. Signalling and track. Port operations, logistics planning, maritime engineering. The failure modes here are technical and the inquiries into them are written by lawyers.</p>
       </div>
       <div class="card reveal">
-        <span class="kicker">Technology & security</span>
-        <h3>Defend the stack</h3>
-        <p>System architects, DevOps, cybersecurity and incident response, telecom and 5G, AI/ML engineers and data scientists.</p>
+        <span class="kicker">Technology &amp; security</span>
+        <h3>The stack underneath</h3>
+        <p>System architects, people who have carried a pager for something large, incident responders, cryptographers, telecom engineers, and the ML people honest about what their models cannot do. Rules in this area are written years behind the thing they govern.</p>
       </div>
       <div class="card reveal">
         <span class="kicker">Social systems</span>
-        <h3>Serve the people</h3>
-        <p>Public health specialists, curriculum and EdTech designers, economists and financial engineers, agricultural scientists and supply-chain experts.</p>
+        <h3>Health, learning, money, food</h3>
+        <p>Public health specialists. People who have designed a curriculum and then taught it. Economists who have watched a mechanism meet the real distribution of income. Agricultural scientists and the people who move what they grow. Small design errors here compound into a generation.</p>
       </div>
     </div>
   </div>
@@ -74,9 +74,9 @@ description: "A hundred people is the legal threshold to register a political pa
 <section class="cta-band">
   <div class="container">
     <div class="cta-inner reveal">
-      <span class="eyebrow" style="justify-content:center">Ready to debug democracy?</span>
+      <span class="eyebrow" style="justify-content:center">How to apply</span>
       <h2>Send us your portfolio</h2>
-      <p>If you're tired of watching generalists make uninformed decisions in your field, let's build a government that actually works.</p>
+      <p>Tell us what you have built or fixed, and what you would change if the rules in your field were yours to write. We read all of it.</p>
       <a href="mailto:help.me@joindesh.in?subject=Domain%20Expert%20Application" class="btn btn-primary">Apply by email <span class="arrow">→</span></a>
 
       <div class="appbox">
@@ -84,11 +84,11 @@ description: "A hundred people is the legal threshold to register a political pa
         <div>Subject: Domain Expert Application, [Your Field]</div>
         <div style="margin:0.8rem 0 0.4rem;color:var(--text-faint)">Include:</div>
         <ul>
-          <li>Your domain of expertise and years of experience</li>
-          <li>3 to 5 real problems you've solved in your field</li>
-          <li>Publications, patents or notable achievements</li>
-          <li>Why you believe in evidence-based governance</li>
-          <li>Your vision for improving your domain, anywhere it's run badly</li>
+          <li>Your domain, and how long you have worked in it</li>
+          <li>Three to five problems you have closed, including what went wrong</li>
+          <li>Anything public: papers, patents, systems in production, incidents you handled</li>
+          <li>One thing your field gets wrong that an outsider would never spot</li>
+          <li>The rule you would rewrite first, and what you would measure to know it worked</li>
         </ul>
       </div>
     </div>

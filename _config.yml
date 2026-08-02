@@ -1,6 +1,6 @@
 # Site configuration for DESH / joindesh.in
 title: "#desh>_ · Corruption is gravity. We're building the rocket."
-description: "DESH is a lab building a software-defined political party. We rebuild public services from first principles, for anywhere. We don't try to abolish the gravity of corruption. We engineer a system that reaches escape velocity anyway. First test bed: India."
+description: "DESH is a lab building a software-defined political party. We rebuild public services from first principles, for anywhere. Abolishing the gravity of corruption is intractable; we engineer a system that reaches orbit anyway. First test bed: India."
 url: "https://joindesh.in"
 baseurl: ""
 lang: en
@@ -36,3 +36,4 @@ exclude:
   - node_modules
   - vendor
   - .sass-cache
+  - tools          # collector source; would otherwise be served at /tools/

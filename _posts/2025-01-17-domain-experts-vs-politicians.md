@@ -2,232 +2,72 @@
 layout: post
 title: "Domain Experts vs. Career Politicians"
 meta: "$ diff traditional_politics.txt technocracy.txt"
-description: "Why India needs aviation experts running aviation policy, not career politicians making decisions about domains they don't understand."
+description: "The case for putting people who have run a system in charge of the rules for that system, and the three objections to it that are actually good: experts forecast badly, experts get captured, and nobody elected them."
+tags: [expertise, technocracy, capture, legitimacy]
 ---
 
-Why India needs aviation experts running aviation policy, not career politicians making decisions about domains they don't understand. A case study in evidence-based governance.
+**The case is easy to make and easy to make badly. Here it is with the three real objections attached.**
 
-## The Problem: Mismatched Expertise
+## The mismatch
 
-```bash
-$ whoami
-career_politician
+A member of parliament is asked, in the space of one session, to have a view on aircraft certification, antimicrobial resistance, spectrum auctions, minimum support prices and the regulation of frontier AI models. No human being holds all of that. Nobody claims to. The system runs on the polite fiction that a mandate substitutes for knowing anything, and it is supported underneath by a civil service of generalists who rotate departments every few years, which means the institutional memory of a technical domain often lives in nobody at all.
 
-$ ls -la /expertise/
-total 0
-drwxr-xr-x  2 politician politician   64 Jan 17 2025 .
-drwxr-xr-x  3 root       root        96 Jan 17 2025 ..
--rw-r--r--  1 politician politician    0 Jan 17 2025 empty.txt
+Meanwhile there are people who have spent twenty years inside each of those subjects, who know precisely which rule is wrong and why, and whose entire route into the room runs through being consulted, at somebody else's discretion, after the decision has taken shape.
 
-$ cat /current_role/responsibilities.txt
-- Aviation policy decisions
-- Healthcare system reforms  
-- Cybersecurity frameworks
-- Agricultural modernization
-- Space technology initiatives
-```
+That is the mismatch. Stated that plainly it sounds unanswerable.
 
-The disconnect is clear: zero domain expertise, infinite responsibility scope.
+It isn't. There are three good objections, and the version of this argument worth holding is the one that has survived them.
 
-## Case Study: Aviation Safety in India
+## Objection one: experts are bad at predicting things
 
-### Traditional Approach
+This is the strongest empirical attack and most people advocating expert rule have never encountered it.
 
-**Decision Maker**: Career politician with law degree
-**Process**: 
-1. Consult with lobbyists
-2. Review party position
-3. Consider electoral impact
-4. Make policy decision
+Philip Tetlock spent about twenty years collecting political forecasts from a few hundred specialists — academics, analysts, advisers — and scored them against outcomes. Roughly twenty-eight thousand predictions. The headline result, published in 2005, is that they performed barely better than chance, and that the most confident and most credentialed among them did *worse* than the moderately informed. The line everyone remembers is that the average expert was about as accurate as a dart-throwing chimpanzee.
 
-**Result**: Generic regulations that miss critical technical nuances
+If that is what expertise buys, the case for putting experts in charge collapses.
 
-### DESH Approach  
+Except look at what was measured. Tetlock was scoring *political forecasting*: will this regime fall, will that country enter recession, will this conflict escalate. Predicting the future behaviour of a complex adaptive system is a task humans are reliably bad at, and being a professor of Soviet studies does not exempt you.
 
-**Decision Maker**: Aviation safety expert with 20+ years experience
-**Process**:
-1. Analyze incident data patterns
-2. Review international best practices
-3. Consult with pilots, engineers, controllers
-4. Implement evidence-based solutions
+That is not the thing we are claiming a pilot has. **Operating knowledge is not forecasting.** A pilot cannot tell you the state of Indian aviation in 2035. A pilot can tell you why a particular go-around procedure produces confusion at a particular airport in monsoon conditions, because they have flown it. An anaesthetist cannot predict next year's disease burden but can tell you exactly which line in a procurement rule will result in the wrong drug being on the shelf.
 
-**Result**: Targeted interventions that actually improve safety metrics
+The distinction is sharp and it is operationally useful: **we are recruiting for failure-mode knowledge, not for prophecy.** Anyone whose pitch is that they can see what's coming should be treated with the suspicion Tetlock's data earned them. Anyone who can tell you the six ways the thing they have run breaks, in order of frequency, has something no election confers.
 
-## The Expertise Gap: A Systems Analysis
+It also implies a limit we should say out loud. Expertise licenses you to describe mechanisms and their failure modes. It does not license you to make confident calls about outcomes years out, and a lab full of people who forget that will produce the same overconfidence in a better vocabulary.
 
-### Current System Architecture
+## Objection two: experts get captured
 
-```
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   Voters        │───▶│  Politicians     │───▶│   Policies      │
-│   (Citizens)    │    │  (Generalists)   │    │   (Generic)     │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
-                              │
-                              ▼
-                       ┌──────────────────┐
-                       │   Bureaucrats    │
-                       │   (Implementers) │
-                       └──────────────────┘
-```
+Also true, also well documented, and structurally more dangerous than the first.
 
-**Problems:**
-- **Information loss** at each layer
-- **No feedback loops** from implementation to policy
-- **Generic solutions** for specific problems
+George Stigler's account of regulatory capture, published in 1971, is the standard reference: regulation tends over time to be acquired by the industry it governs and operated for its benefit. The mechanism is not bribery. It is that the regulator and the regulated are drawn from the same small pool of people who understand the subject, attend the same conferences, and will likely work for each other at some point. Everything that makes someone qualified also makes them entangled.
 
-### DESH System Architecture
+The 737 MAX is the case study nobody in this debate should be allowed to skip. The FAA had for years delegated much of the certification work to Boeing employees under its Organization Designation Authorization programme — expert review, in the most literal sense, by people who knew the aircraft better than any regulator could. MCAS went through it. Lion Air 610 went down in October 2018 and Ethiopian 302 in March 2019, and three hundred and forty-six people died.
 
-```
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   Citizens      │───▶│  Domain Experts  │───▶│   Targeted      │
-│   (Stakeholders)│    │  (Specialists)   │    │   Solutions     │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
-                              │                          │
-                              ▼                          │
-                       ┌──────────────────┐              │
-                       │   Implementation │◀─────────────┘
-                       │   (Direct)       │
-                       └──────────────────┘
-```
+Domain expertise did not fail there. Domain expertise was present in the room and was structurally unable to act, because the experts' employer was the applicant.
 
-**Advantages:**
-- **Direct expertise** application
-- **Rapid feedback** loops
-- **Measurable outcomes**
+So "put experts in charge" is an incomplete instruction. The complete one is: put experts in charge *and* assume they will be captured, and build for that in advance. Published conflicts. Fixed terms with no renewal. Reasoning published alongside every decision, so that a captured decision has to be argued for in public where the people who know the domain can see it. Rotation out on a fixed clock, so nobody sits in one seat long enough to become worth buying.
 
-## Domain Mapping: India's Critical Needs
+If we ever propose an expert body without a staging plan, we have failed our own test.
 
-### Infrastructure Domains
-```python
-critical_domains = {
-    'aviation': {
-        'expert_profile': 'Pilot/ATC/Safety Engineer',
-        'key_decisions': ['Route planning', 'Safety protocols', 'Technology upgrades'],
-        'current_gap': 'Politicians making technical safety decisions'
-    },
-    'railways': {
-        'expert_profile': 'Railway Engineer/Operations Manager', 
-        'key_decisions': ['Signaling systems', 'Track maintenance', 'Capacity optimization'],
-        'current_gap': 'Bureaucratic delays in technical upgrades'
-    },
-    'telecommunications': {
-        'expert_profile': 'Network Architect/Cybersecurity Expert',
-        'key_decisions': ['5G rollout', 'Data privacy', 'Infrastructure security'],
-        'current_gap': 'Policy lag behind technology evolution'
-    }
-}
-```
+## Objection three: nobody elected them
 
-### Social Domains
-```python
-social_domains = {
-    'healthcare': {
-        'expert_profile': 'Public Health Specialist/Medical Administrator',
-        'key_decisions': ['Resource allocation', 'Treatment protocols', 'Prevention strategies'],
-        'current_gap': 'Political considerations overriding medical evidence'
-    },
-    'education': {
-        'expert_profile': 'Educational Researcher/Curriculum Designer',
-        'key_decisions': ['Learning methodologies', 'Skill development', 'Assessment systems'],
-        'current_gap': 'Ideological debates instead of pedagogical evidence'
-    }
-}
-```
+The oldest one, and the reason technocracy has an unpleasant history.
 
-## The Validation Process: How We Select Experts
+An expert body deriving authority from correctness has no answer when it is wrong, and no answer when the public disagrees with something it got right. Correctness is not consent. Every attempt to run a country on the first without the second has ended somewhere ugly, and it has done so with enough regularity that it should be read as a property of the design rather than as bad luck.
 
-### Technical Screening
-```bash
-#!/bin/bash
-# expert_validation.sh
+Which is why the first two words are not decoration. **Democratically Elected** System Hackers. We go through the front door: contest elections, accept the result, hold office by consent or not at all. Expertise determines what gets *proposed* and how proposals are *examined*. It does not determine who holds power. Those are separable, and confusing them is the whole failure mode of every technocratic experiment worth learning from.
 
-validate_expert() {
-    local domain=$1
-    local candidate=$2
-    
-    # Check credentials
-    verify_education $candidate $domain
-    verify_experience $candidate $domain
-    verify_achievements $candidate $domain
-    
-    # Peer review
-    peer_validation $candidate $domain
-    
-    # Problem-solving assessment  
-    technical_interview $candidate $domain
-    
-    # Ethics and transparency check
-    background_verification $candidate
-    
-    return $validation_score
-}
-```
+> **Legitimacy is not a constraint on the rocket. Legitimacy is the launchpad.**
 
-### Continuous Performance Monitoring
-```python
-def monitor_expert_performance(expert_id, domain):
-    metrics = {
-        'decision_accuracy': measure_outcome_vs_prediction(),
-        'stakeholder_satisfaction': survey_affected_parties(),
-        'peer_recognition': track_professional_standing(),
-        'transparency_score': audit_decision_process()
-    }
-    
-    if metrics['overall_score'] < threshold:
-        initiate_review_process(expert_id)
-    
-    return metrics
-```
+## What is actually being proposed
 
-## Implementation Strategy: The Transition
+Narrower than it first sounds, and better for it.
 
-### Phase 1: Pilot Domains (Months 1-6)
-- **Aviation safety** - Immediate impact, measurable outcomes
-- **Cybersecurity** - Critical national security implications
-- **Public health** - Post-pandemic priority
+Not rule by experts. A hard requirement that anyone proposing a rule for a domain has operated in it, that their reasoning is published in a form specialists can attack, and that they leave before they accumulate the mass that makes them worth capturing.
 
-### Phase 2: Infrastructure Expansion (Months 7-18)  
-- **Transportation systems**
-- **Energy distribution**
-- **Water management**
+The Challenger inquiry produced the cleanest statement of why any of this matters. Thiokol's engineers had told management the O-rings would not seal in the cold, and were overruled by people with authority and no relevant knowledge. Feynman put the finding in one line: reality must take precedence over public relations, for nature cannot be fooled.
 
-### Phase 3: Social Systems (Months 19-36)
-- **Education reform**
-- **Healthcare delivery**
-- **Social welfare optimization**
+Nature cannot be fooled. Aircraft, epidemics, power grids and irrigation systems are not persuaded by mandates. They respond only to whether the person who wrote the rule understood the machine.
 
-## The Accountability Framework
+Tell us where this is wrong.
 
-### Traditional System
-```
-Politician → Voter (every 5 years)
-```
-
-### DESH System  
-```
-Expert → Measurable Outcomes (continuous)
-Expert → Peer Review (quarterly)
-Expert → Citizen Feedback (real-time)
-Expert → Algorithmic Audit (automated)
-```
-
-## Join the Expert Network
-
-Are you a domain expert tired of watching politicians make uninformed decisions in your field? 
-
-**We're looking for:**
-- **10+ years** hands-on experience
-- **Proven track record** of solving real problems
-- **Commitment to transparency** and evidence-based decisions
-- **Ability to explain** complex concepts to stakeholders
-
-**Application Process:**
-1. Submit expertise portfolio to help.me@joindesh.in
-2. Peer review by existing domain experts
-3. Technical interview and problem-solving assessment
-4. Background verification and ethics screening
-5. Onboarding to DESH expert network
-
----
-
-*Ready to replace rhetoric with expertise? The system needs debugging, and we need system administrators who actually understand the domains they're managing.*
+**`#desh>_`**
